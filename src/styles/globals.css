@@ -2,9 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Layer Base */
+
+
 @layer base {
     body {
         @apply dark:bg-neutral-800 dark:text-gray-100   text-gray-900
+    }
+}
+
+/* Mobile */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+ body {
+        @apply sm:w-96;
     }
 }
