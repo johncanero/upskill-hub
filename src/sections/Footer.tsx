@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
 
         <div className="">
-          <button className="w-48 h-12 font-bold text-white rounded-full bg-gradient-to-l from-purple-500 to-blue-500 hover:from-blue-500 hover:to-purple-500 ">
+          <button className="w-48 h-12 font-bold text-white rounded-full bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 ">
             Get Started
           </button>
         </div>
