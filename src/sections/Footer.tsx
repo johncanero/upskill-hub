@@ -16,7 +16,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <div className="">
+        <div>
           <button className="w-48 h-12 font-bold text-white rounded-full bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 ">
             Get Started
           </button>
@@ -37,9 +37,6 @@ const Footer = () => {
         </Link>
         &copy; {new Date().getFullYear()} All Rights Reserved
       </div>
-
-
-
     </footer>
   );
 };
