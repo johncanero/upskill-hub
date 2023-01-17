@@ -3,14 +3,14 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="px-10 py-6 bg-slate-900 md:px-16 lg:px-36 font-Poppins">
+    <footer className="px-10 py-6 bg-gray-200 dark:bg-slate-900 md:px-16 lg:px-36 font-Poppins">
 
       {/* Upskill and Get Started */}
       <div className="flex justify-center md:justify-between">
         {/* Title */}
         <div>
           <Link rel="noopener noreferrer" href="/">
-            <h1 className="mt-3 mr-5 text-xl font-bold text-white md:text-2xl lg:text-3xl md:block">
+            <h1 className="mt-3 mr-5 text-xl font-bold md:text-2xl lg:text-3xl md:block">
               upskillHub
             </h1>
           </Link>
@@ -32,7 +32,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/johncanero/"
         >
-          <span className="mr-2 font-bold text-gray-300">
+          <span className="mr-2 font-bold text-gray-900 dark:text-gray-100">
             John Cañero
           </span>
         </Link>

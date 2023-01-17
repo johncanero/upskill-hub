@@ -75,10 +75,9 @@ const Header = () => {
                 </h1>
               </Link>
             </div>
-
           </div>
 
-          {/* Header Links */}
+          {/* Pages */}
           <div>
             <ul className="flex gap-12 mt-2 text-sm lg:text-base font-Montserrat">
               <Link
@@ -92,7 +91,7 @@ const Header = () => {
               <Link
                 rel="noopener noreferrer"
                 href="/explore"
-                className="font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
+                className="text-gray-600 border-b-2 border-transparent font-esmibold dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 Explore
               </Link>
