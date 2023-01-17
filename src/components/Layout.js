@@ -1,9 +1,14 @@
-import Head from 'next/head'
-import Hero from '@/sections/Hero'
+import React from "react";
+import Head from "next/head";
+import Header from "@/sections/Header";
+import Footer from "@/sections/Footer";
+// Mobile
+// import MenuDropdown from "../sections/MobileDropdown";
 
-export default function Home() {
+const Layout = ({ children }) => {
   return (
     <>
+      {/* Head */}
       <Head>
         <title>Upskill Hub</title>
         <meta name="description" content="Upskill Hub, Upskill, E-learning, Education, Teaching, Mentorship, Online Courses, Certificates" />
@@ -18,7 +23,14 @@ export default function Home() {
 
         {/* Google Verification and XML Sitemap */}
       </Head>
-      <Hero />
+
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        {/* <MenuDropdown /> */}
+        <main className="flex-grow">{children}</main>
+        <Footer />
+      </div>
     </>
-  )
-}
+  );
+};
+export default Layout;
