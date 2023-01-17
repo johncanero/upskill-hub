@@ -3,21 +3,21 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="py-6 bg-slate-900 md:px-36 font-Poppins">
+    <footer className="px-10 py-6 bg-slate-900 md:px-16 lg:px-36 font-Poppins">
 
       {/* Upskill and Get Started */}
-      <div className="md:justify-between md:flex">
+      <div className="flex justify-center md:justify-between">
         {/* Title */}
         <div>
           <Link rel="noopener noreferrer" href="/">
-            <h1 className="hidden text-3xl font-bold text-white md:block">
+            <h1 className="mt-3 mr-5 text-xl font-bold text-white md:text-2xl lg:text-3xl md:block">
               upskillHub
             </h1>
           </Link>
         </div>
 
         <div>
-          <button className="w-48 h-12 font-bold text-white rounded-full bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 ">
+          <button className="w-40 h-12 font-bold text-white rounded-full md:w-48 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 ">
             Get Started
           </button>
         </div>
@@ -25,7 +25,7 @@ const Footer = () => {
 
 
       {/* Copyright */}
-      <div className="pt-4 text-right text-gray-600 md:mt-1">
+      <div className="pt-4 text-sm text-center text-gray-600 md:text-base md:text-right md:mt-1">
         <Link
           target="_blank"
           rel="noopener noreferrer"
