@@ -16,8 +16,9 @@ const Footer = () => {
           </Link>
         </div>
 
+        {/* Get Started */}
         <div>
-          <button className="w-40 h-12 font-bold text-white rounded-full md:w-48 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 ">
+          <button className="w-40 h-12 font-bold text-white rounded-full bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 ">
             Get Started
           </button>
         </div>
