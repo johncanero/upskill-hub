@@ -19,6 +19,7 @@ export default function Home() {
         {/* Google Verification and XML Sitemap */}
       </Head>
 
+      <h1 className='text-4xl font-bold text-center text-blue-500 '>Upskill Hub</h1>
     </>
   )
 }
