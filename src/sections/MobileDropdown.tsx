@@ -184,7 +184,7 @@ const MobileDropdown = () => {
                   {/* About */}
                   <Menu.Item>
                     {({ active }) => (
-                      <Link href="/get-a-quote">
+                      <Link href="/find-your-new-career">
                         <button
                           className={`${active
                             ? "bg-violet-500 text-white"
