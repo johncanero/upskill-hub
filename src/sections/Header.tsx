@@ -60,7 +60,7 @@ const Header = () => {
           {/* Heading Title */}
           <div className="flex">
             <div className="flex">
-              <Link 
+              <Link
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://www.linkedin.com/in/johncanero/">
@@ -73,7 +73,7 @@ const Header = () => {
                 />
               </Link>
               <Link rel="noopener noreferrer" href="/">
-                <h1 className="ml-3 text-4xl font-extrabold font-OpenSans">
+                <h1 className="ml-3 text-4xl font-extrabold text-gray-800 dark:text-white font-OpenSans">
                   upskillHub
                 </h1>
               </Link>
@@ -129,9 +129,15 @@ const Header = () => {
           <div className="flex">
             {/* Get Started */}
             <div>
-              <button className="w-40 h-12 mr-6 font-bold text-white rounded-full bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 font-OpenSans">
-                Get Started
-              </button>
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/company/upskill-hub/"
+              >
+                <button className="w-40 h-12 mr-6 font-bold text-white rounded-full bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 font-OpenSans">
+                  Get Started
+                </button>
+              </Link>
             </div>
             {renderThemeChanger()}
           </div>
