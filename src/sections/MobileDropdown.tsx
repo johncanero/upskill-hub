@@ -102,9 +102,16 @@ const MobileDropdown = () => {
             
             {/* Toggle Button */}
             <div className="flex">
-              
-              <CgProfile size={42} className="mr-1"  />
-              <Menu.Button className="inline-flex justify-center w-full py-2 text-sm font-medium rounded-md text-neutral-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
+            <Link
+                rel="noopener noreferrer"
+                href="/profile"
+                className=""
+              >
+              <CgProfile size={26} className="mt-1 mr-3"  />
+            </Link>
+
+
+              <Menu.Button className="inline-flex justify-center w-full py-1 text-sm font-medium rounded-md text-neutral-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
                 <GiHamburgerMenu
                   className="w-6 h-6 dark:text-white"
                   aria-hidden="true"
