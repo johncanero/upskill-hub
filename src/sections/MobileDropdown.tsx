@@ -9,11 +9,10 @@ import { useTheme } from "next-themes";
 // Icons
 import { GiHamburgerMenu } from "@react-icons/all-files/gi/GiHamburgerMenu";
 import { FaHome } from "@react-icons/all-files/fa/FaHome";
-import { AiOutlineOrderedList } from "@react-icons/all-files/ai/AiOutlineOrderedList";
-import { AiOutlineQuestionCircle } from "@react-icons/all-files/ai/AiOutlineQuestionCircle";
-import { RiFileHistoryLine } from "@react-icons/all-files/ri/RiFileHistoryLine";
-import { AiOutlineMail } from "@react-icons/all-files/ai/AiOutlineMail";
 import { CgProfile } from "@react-icons/all-files/cg/CgProfile"
+import { BiSearchAlt } from "@react-icons/all-files/bi/BiSearchAlt"
+import { GoLightBulb } from "@react-icons/all-files/go/GoLightBulb"
+import { GiNetworkBars } from "@react-icons/all-files/gi/GiNetworkBars"
 
 const MobileDropdown = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -156,7 +155,7 @@ const MobileDropdown = () => {
                             : "text-gray-900"
                             } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
-                          <AiOutlineOrderedList size={17} />
+                          <BiSearchAlt size={17} />
                           <span className="ml-2">Explore</span>
                         </button>
                       </Link>
@@ -175,7 +174,7 @@ const MobileDropdown = () => {
                             : "text-gray-900"
                             } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
-                          <AiOutlineQuestionCircle size={17} />
+                          <GoLightBulb size={17} />
                           <span className="ml-2">Online Courses</span>
                         </button>
                       </Link>
@@ -191,7 +190,7 @@ const MobileDropdown = () => {
                             : "text-gray-900"
                             } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
-                          <RiFileHistoryLine size={17} />
+                          <GiNetworkBars size={17} />
                           <span className="ml-2">Find Your New Career</span>
                         </button>
                       </Link>
