@@ -13,6 +13,7 @@ import { AiOutlineOrderedList } from "@react-icons/all-files/ai/AiOutlineOrdered
 import { AiOutlineQuestionCircle } from "@react-icons/all-files/ai/AiOutlineQuestionCircle";
 import { RiFileHistoryLine } from "@react-icons/all-files/ri/RiFileHistoryLine";
 import { AiOutlineMail } from "@react-icons/all-files/ai/AiOutlineMail";
+import { CgProfile } from "@react-icons/all-files/cg/CgProfile"
 
 const MobileDropdown = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -98,8 +99,11 @@ const MobileDropdown = () => {
             Request Beta Access
           </button>
           <Menu as="div" className="relative inline-block text-left">
+            
             {/* Toggle Button */}
-            <div>
+            <div className="flex">
+              
+              <CgProfile size={42} className="mr-1"  />
               <Menu.Button className="inline-flex justify-center w-full py-2 text-sm font-medium rounded-md text-neutral-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
                 <GiHamburgerMenu
                   className="w-6 h-6 dark:text-white"
@@ -107,6 +111,7 @@ const MobileDropdown = () => {
                 />
               </Menu.Button>
             </div>
+            
             <Transition
               as={Fragment}
               enter="transition ease-out duration-100"
