@@ -76,14 +76,14 @@ const MobileDropdown = () => {
           <div className="flex">
             {/* Image */}
             <Image
-              src="/images/leadIcon2.png"
+              src="/images/upskillHubIcon.png"
               width={35}
               height={35}
               alt="jLogo"
               className=""
             />
             <div className="flex">
-              <h1 className="ml-3 text-3xl font-extrabold font-OpenSans">
+              <h1 className="ml-3 text-2xl font-extrabold text-gray-800 font-OpenSans dark:text-white">
                 upskillHub
               </h1>
             </div>
@@ -137,7 +137,7 @@ const MobileDropdown = () => {
                   {/* Categories */}
                   <Menu.Item>
                     {({ active }) => (
-                      <Link href="/digital-marketing-services">
+                      <Link href="/explore">
                         <button
                           className={`${active
                             ? "bg-violet-500 text-white"
@@ -145,7 +145,7 @@ const MobileDropdown = () => {
                             } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <AiOutlineOrderedList size={17} />
-                          <span className="ml-2">Digital Marketing Services</span>
+                          <span className="ml-2">Explore</span>
                         </button>
                       </Link>
                     )}
@@ -156,7 +156,7 @@ const MobileDropdown = () => {
                 <div className="px-1 py-1 pb-2">
                   <Menu.Item>
                     {({ active }) => (
-                      <Link href="/why-lead">
+                      <Link href="/online-courses">
                         <button
                           className={`${active
                             ? "bg-violet-500 text-white"
@@ -164,7 +164,7 @@ const MobileDropdown = () => {
                             } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <AiOutlineQuestionCircle size={17} />
-                          <span className="ml-2">Why Lead</span>
+                          <span className="ml-2">Online Courses</span>
                         </button>
                       </Link>
                     )}
@@ -180,37 +180,15 @@ const MobileDropdown = () => {
                             } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <RiFileHistoryLine size={17} />
-                          <span className="ml-2">Get A Quote</span>
+                          <span className="ml-2">Find Your New Career</span>
                         </button>
                       </Link>
                     )}
                   </Menu.Item>
                 </div>
 
-                {/* Contact */}
-                <div className="px-1 py-1 pb-2">
-                  <Menu.Item>
-                    {({ active }) => (
-                      <Link
-                        // target="_blank"
-                        rel="noopener noreferrer"
-                        href="/contact"
-                      >
-                        <button
-                          className={`${active
-                            ? "bg-violet-500 text-white"
-                            : "text-gray-900"
-                            } group flex w-72 items-center rounded-md px-2 py-1 text-sm font-Poppins`}
-                        >
-                          <AiOutlineMail size={17} />
-                          <span className="ml-2">Contact</span>
-                        </button>
-                      </Link>
-                    )}
-                  </Menu.Item>
-                </div>
 
-                {/* Contact */}
+
                 <div className="px-1 py-1 pb-2">
                   <Menu.Item>
                     {({ active }) => (
@@ -220,6 +198,23 @@ const MobileDropdown = () => {
                       >
                         {renderThemeChanger()}
                       </button>
+                    )}
+                  </Menu.Item>
+                </div>
+
+                {/* Contact */}
+                <div className="flex justify-center py-1 pb-4 mx-auto">
+                  <Menu.Item>
+                    {({ active }) => (
+                      <Link
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.linkedin.com/company/upskill-hub/"
+                      >
+                        <button className="w-32 h-10 px-2 py-2 font-bold text-center text-white rounded-full bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 font-OpenSans">
+                          Get Started
+                        </button>
+                      </Link>
                     )}
                   </Menu.Item>
                 </div>

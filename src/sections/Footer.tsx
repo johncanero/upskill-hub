@@ -3,14 +3,14 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="px-10 py-6 bg-gray-100 dark:bg-slate-900 md:px-16 lg:px-36">
+    <footer className="px-10 py-6 bg-neutral-100 dark:bg-slate-900 md:px-16 lg:px-36">
 
       {/* Upskill and Get Started */}
       <div className="flex justify-center md:justify-between">
         {/* Title */}
         <div>
           <Link rel="noopener noreferrer" href="/">
-            <h1 className="mt-3 mr-5 text-xl font-bold md:text-2xl md:block font-OpenSans">
+            <h1 className="mt-3 mr-5 text-lg font-bold md:text-2xl md:block font-OpenSans">
               upskillHub
             </h1>
           </Link>
