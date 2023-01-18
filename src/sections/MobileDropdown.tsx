@@ -70,8 +70,8 @@ const MobileDropdown = () => {
 
 
   return (
-    <div>
-      <div className="flex justify-between mx-6 mt-4 text-right md:mt-6 lg:hidden top-16 md:w-full md:mx-2">
+    <div className="px-6 md:px-12 md:mt-2">
+      <div className="flex justify-between mt-4 text-right md:mt-5 lg:hidden top-16 md:w-full">
         <Link rel="noopener noreferrer" href="/">
           <div className="flex">
             {/* Image */}
@@ -93,21 +93,32 @@ const MobileDropdown = () => {
 
         {/* Dark Mode and Toggle */}
         <div className="z-10 flex">
-          {/* Tablet Beta Access */}
-          <button className="hidden px-4 py-2 mr-4 font-semibold bg-transparent border rounded md:block border-neutral-400 dark:border-neutral-600 hover:bg-orange-500 hover:text-white hover:border-transparent font-Montserrat">
-            Request Beta Access
-          </button>
+
+          {/* Tablet - Get Started */}
+          {/* Get Started */}
+          <div>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/company/upskill-hub/"
+            >
+              <button className="hidden w-32 h-10 font-bold text-white rounded-full md:mr-5 md:block bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 font-OpenSans">
+                Get Started
+              </button>
+            </Link>
+
+          </div>
           <Menu as="div" className="relative inline-block text-left">
-            
+
             {/* Toggle Button */}
             <div className="flex">
-            <Link
+              <Link
                 rel="noopener noreferrer"
                 href="/profile"
                 className=""
               >
-              <CgProfile size={26} className="mt-1 mr-4"  />
-            </Link>
+                <CgProfile size={26} className="mt-1 mr-4" />
+              </Link>
 
 
               <Menu.Button className="inline-flex justify-center w-full py-1 text-sm font-medium rounded-md text-neutral-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
@@ -117,7 +128,7 @@ const MobileDropdown = () => {
                 />
               </Menu.Button>
             </div>
-            
+
             <Transition
               as={Fragment}
               enter="transition ease-out duration-100"
