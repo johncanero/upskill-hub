@@ -107,7 +107,7 @@ const MobileDropdown = () => {
                 href="/profile"
                 className=""
               >
-              <CgProfile size={26} className="mt-1 mr-3"  />
+              <CgProfile size={26} className="mt-1 mr-4"  />
             </Link>
 
 
