@@ -60,7 +60,10 @@ const Header = () => {
           {/* Heading Title */}
           <div className="flex">
             <div className="flex">
-              <Link rel="noopener noreferrer" href="/">
+              <Link 
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/johncanero/">
                 <Image
                   src="/images/upskillHubIcon.png"
                   width={35}

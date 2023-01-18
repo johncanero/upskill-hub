@@ -18,9 +18,15 @@ const Footer = () => {
 
         {/* Get Started */}
         <div>
-          <button className="w-40 h-12 font-bold text-white rounded-full bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 font-OpenSans">
-            Get Started
-          </button>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/company/upskill-hub/"
+          >
+            <button className="w-40 h-12 font-bold text-white rounded-full bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 font-OpenSans">
+              Get Started
+            </button>
+          </Link>
         </div>
       </div>
 
