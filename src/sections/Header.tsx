@@ -70,7 +70,7 @@ const Header = () => {
                 />
               </Link>
               <Link rel="noopener noreferrer" href="/">
-                <h1 className="mt-1 ml-3 text-4xl font-extrabold font-Poppins">
+                <h1 className="ml-3 text-4xl font-extrabold font-OpenSans">
                   upskillHub
                 </h1>
               </Link>
@@ -79,7 +79,7 @@ const Header = () => {
 
           {/* Pages */}
           <div>
-            <ul className="flex gap-12 mt-2 text-sm lg:text-base font-Montserrat">
+            <ul className="flex gap-12 mt-2 text-sm lg:text-base font-OpenSans">
               <Link
                 rel="noopener noreferrer"
                 href="/"
@@ -87,14 +87,14 @@ const Header = () => {
               >
                 Home
               </Link>
-
               <Link
                 rel="noopener noreferrer"
                 href="/explore"
-                className="text-gray-600 border-b-2 border-transparent font-esmibold dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
+                className="font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 Explore
               </Link>
+
 
               <Link
                 rel="noopener noreferrer"
@@ -126,7 +126,7 @@ const Header = () => {
           <div className="flex">
             {/* Get Started */}
             <div>
-              <button className="w-40 h-12 mr-6 font-bold text-white rounded-full bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
+              <button className="w-40 h-12 mr-6 font-bold text-white rounded-full bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 font-OpenSans">
                 Get Started
               </button>
             </div>
