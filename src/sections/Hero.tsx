@@ -7,10 +7,10 @@ const Hero = () => {
     <div className=''>
       <div>
         {/* Description */}
-        <div className='ml-60'>
-          <h1 className='max-w-lg mt-32 text-6xl font-bold font-OpenSans'>Maximize skill, minimize budget</h1>
+        <div className='ml-12 lg:ml-60'>
+          <h1 className='md:max-w-sm lg:max-w-lg mt-32 md:text-4xl lg:text-6xl font-bold font-OpenSans'>Maximize skill, minimize budget</h1>
 
-          <p className='max-w-sm mt-8 text-base text-gray-500 dark:text-gray-400'>Our modern courses across range of in-demand skills will give you the knowledge you need to live <br></br>the life you want.</p>
+          <p className='md:max-w-xs lg:max-w-sm mt-8 text-base text-gray-500 dark:text-gray-400'>Our modern courses across range of in-demand skills will give you the knowledge you need to live the life you want.</p>
 
           <div>
             <Link
@@ -25,13 +25,13 @@ const Hero = () => {
           </div>
 
           {/* Image */}
-          <div className='relative lg:-top-80'>
+          <div className='relative md:-top-40 lg:-top-80'>
             <Image
               src="/images/e-learningDesktop2-min.png"
               width={780}
               height={780}
               alt="Hero Logo"
-              className="absolute right-0 lg:-top-96"
+              className="absolute lg:max-w-3xl md:max-w-xl right-0 md:-right-16 lg:-right-0 md:-top-96 lg:-top-96"
             />
           </div>
         </div>
