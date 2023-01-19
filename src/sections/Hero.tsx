@@ -7,7 +7,7 @@ const Hero = () => {
     <div className=''>
       <div>
         {/* Description */}
-        <div className='ml-12 lg:ml-60'>
+        <div className='ml-12 lg:ml-64'>
           <h1 className='md:max-w-sm lg:max-w-lg mt-32 md:text-4xl lg:text-6xl font-bold font-OpenSans'>Maximize skill, minimize budget</h1>
 
           <p className='md:max-w-xs lg:max-w-sm mt-8 text-base text-gray-500 dark:text-gray-400'>Our modern courses across range of in-demand skills will give you the knowledge you need to live the life you want.</p>
