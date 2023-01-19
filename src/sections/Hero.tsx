@@ -7,7 +7,7 @@ const Hero = () => {
     <div className=''>
       <div>
         {/* Description */}
-        <div className='ml-56'>
+        <div className='ml-60'>
           <h1 className='max-w-lg mt-32 text-6xl font-bold font-OpenSans'>Maximize skill, minimize budget</h1>
 
           <p className='max-w-sm mt-8 text-base text-gray-500 dark:text-gray-400'>Our modern courses across range of in-demand skills will give you the knowledge you need to live <br></br>the life you want.</p>
@@ -25,11 +25,11 @@ const Hero = () => {
           </div>
 
           {/* Image */}
-          <div className='relative lg:-top-72'>
+          <div className='relative lg:-top-80'>
             <Image
               src="/images/e-learningDesktop2-min.png"
-              width={750}
-              height={750}
+              width={780}
+              height={780}
               alt="Hero Logo"
               className="absolute right-0 lg:-top-96"
             />
