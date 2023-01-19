@@ -7,23 +7,34 @@ const Hero = () => {
     <div className=''>
       <div>
         {/* Description */}
-        <div className='ml-52'>
-          <h1 className='max-w-lg text-5xl font-bold mt-44'>Maximize skill, minimuze budget</h1>
+        <div className='ml-56'>
+          <h1 className='max-w-lg mt-32 text-6xl font-bold font-OpenSans'>Maximize skill, minimuze budget</h1>
 
-          <p className='max-w-xl'>Our modern courses across range of in-demand skills will give you the knowledge you need to live the life you want.</p>
+          <p className='max-w-sm mt-8 text-base text-gray-500 dark:text-gray-400'>Our modern courses across range of in-demand skills will give you the knowledge you need to live <br></br>the life you want.</p>
+
+          <div>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/company/upskill-hub/"
+            >
+              <button className="w-40 h-12 mt-12 mr-6 font-bold text-white rounded-full bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 font-OpenSans">
+                Get Started
+              </button>
+            </Link>
+          </div>
+
+          {/* Image */}
+          <div className='relative lg:-top-72'>
+            <Image
+              src="/images/e-learningDesktop2-min.png"
+              width={750}
+              height={750}
+              alt="Hero Logo"
+              className="absolute right-0 lg:-top-96"
+            />
+          </div>
         </div>
-
-        {/* Image */}
-        <div className='relative lg:-mt-44'>
-          <Image
-            src="/images/e-learningDesktop2-min.png"
-            width={720}
-            height={720}
-            alt="Hero Logo"
-            className="absolute right-0 lg:-mt-96"
-          />
-        </div>
-
       </div>
     </div>
   )
