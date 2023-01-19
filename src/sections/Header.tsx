@@ -81,7 +81,7 @@ const Header = () => {
           </div>
 
           {/* Pages */}
-          <div>
+          <div className="z-10">
             <ul className="flex gap-12 mt-2 text-sm lg:text-base font-OpenSans">
               <Link
                 rel="noopener noreferrer"
@@ -126,7 +126,7 @@ const Header = () => {
           </div>
 
 
-          <div className="flex">
+          <div className="z-10 flex">
             {/* Get Started */}
             <div>
               <Link
