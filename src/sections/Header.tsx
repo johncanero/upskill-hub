@@ -54,7 +54,7 @@ const Header = () => {
 
   return (
     <div>
-      <div className="hidden pt-3 lg:block lg:px-40">
+      <div className="hidden pt-3 lg:block lg:mx-52">
         <header className="flex items-center justify-between h-16 mt-1 md:mt-3">
 
           {/* Heading Title */}
