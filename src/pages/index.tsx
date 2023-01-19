@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Hero from '@/sections/Hero'
+import Courses from '@/components/Courses'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         {/* Google Verification and XML Sitemap */}
       </Head>
       <Hero />
+      <Courses />
     </>
   )
 }
