@@ -70,7 +70,7 @@ const MobileDropdown = () => {
 
 
   return (
-    <div className="px-6 md:px-12 md:mt-2">
+    <div className="block px-6 shadow-sm lg:hidden md:px-12 md:py-3 shadow-gray-200 dark:shadow-gray-800">
       <div className="flex justify-between mt-4 text-right md:mt-5 lg:hidden top-16 md:w-full">
         <Link rel="noopener noreferrer" href="/">
           <div className="flex">

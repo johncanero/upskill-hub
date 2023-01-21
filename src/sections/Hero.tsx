@@ -6,11 +6,10 @@ const Hero = () => {
   return (
     <div className=''>
       <div>
-        {/* Description */}
         <div className='ml-12 lg:ml-64'>
-          <h1 className='mt-32 font-bold md:max-w-sm lg:max-w-2xl md:text-4xl lg:text-7xl font-OpenSans'>Maximize skill, minimize budget</h1>
+          <h1 className='mt-32 font-bold md:max-w-sm lg:max-w-2xl md:text-4xl lg:text-6xl font-OpenSans'>Maximize skill, minimize budget</h1>
 
-          <p className='mt-8 text-base text-gray-500 md:max-w-xs lg:max-w-sm dark:text-gray-400 font-OpenSans'>Our modern courses across range of in-demand skills will give you the knowledge you need to live the life you want.</p>
+          <p className='mt-8 text-base text-gray-500 md:text-sm lg:text-base md:max-w-xs lg:max-w-sm dark:text-gray-400 font-OpenSans'>Our modern courses across range of in-demand skills will give you the knowledge you need to live the life you want.</p>
 
           <div>
             <Link
@@ -24,14 +23,16 @@ const Hero = () => {
             </Link>
           </div>
 
-          {/* Image */}
-          <div className='relative md:-top-40 lg:-top-80'>
+
+
+          {/* Desktop and Tablet */}
+          <div className='relative hidden md:block md:-top-36 lg:-top-80'>
             <Image
               src="/images/e-learningDesktop6.png"
               width={800}
               height={800}
               alt="Hero Logo"
-              className="absolute right-0 lg:max-w-4xl md:max-w-xl md:-right-16 lg:-right-0 md:-top-96 lg:-top-96"
+              className="absolute right-0 lg:max-w-4xl md:max-w-xl md:-right-24 lg:-right-0 md:-top-96 lg:-top-96"
             />
           </div>
         </div>
