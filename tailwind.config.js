@@ -18,6 +18,7 @@ module.exports = {
     fontFamily: {
       Poppins: ['Poppins', 'sans-serif'],
       OpenSans: ['Open Sans', 'sans-serif'],
+      Roboto: ['Roboto', 'sans-serif']
     },
   },
   plugins: [],
