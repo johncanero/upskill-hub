@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <div className=''>
       <div>
-        <div className='ml-12 lg:ml-64'>
-          <h1 className='mt-32 font-bold md:max-w-sm lg:max-w-2xl md:text-4xl lg:text-6xl font-OpenSans'>Maximize skill, minimize budget</h1>
+        <div className='mx-6 md:mx-12 lg:mx-0 lg:ml-64'>
+          <h1 className='mt-12 text-4xl font-bold md:mt-32 md:max-w-sm lg:max-w-2xl md:text-4xl lg:text-7xl font-OpenSans'>Maximize skill, minimize budget</h1>
 
           <p className='mt-8 text-base text-gray-500 md:text-sm lg:text-base md:max-w-xs lg:max-w-sm dark:text-gray-400 font-OpenSans'>Our modern courses across range of in-demand skills will give you the knowledge you need to live the life you want.</p>
 
@@ -17,27 +17,38 @@ const Hero = () => {
               rel="noopener noreferrer"
               href="https://www.linkedin.com/company/upskill-hub/"
             >
-              <button className="w-40 h-12 mt-12 mr-6 font-bold text-white rounded-full bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 font-OpenSans">
+              <button className="w-40 h-12 mr-6 font-bold text-white rounded-full mt-7 md:mt-12 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 font-OpenSans">
                 Get Started
               </button>
             </Link>
           </div>
 
-
-
-          {/* Desktop and Tablet */}
-          <div className='relative hidden md:block md:-top-36 lg:-top-80'>
+          {/* Mobile */}
+          <div className='relative block md:hidden'>
             <Image
-              src="/images/e-learningDesktop6.png"
-              width={800}
-              height={800}
-              alt="Hero Logo"
-              className="absolute right-0 lg:max-w-4xl md:max-w-xl md:-right-24 lg:-right-0 md:-top-96 lg:-top-96"
+              src="/images/e-learningMobile2.png"
+              width={900}
+              height={900}
+              alt="E-Learning Mobile Feature Image"
+              className="mx-auto"
             />
           </div>
+
+
+
+        {/* Desktop and Tablet */}
+        <div className='relative hidden md:block md:-top-40 lg:-top-80'>
+          <Image
+            src="/images/e-learningDesktop6.png"
+            width={800}
+            height={800}
+            alt="E-Learning Desktop Feature Image"
+            className="absolute right-0 lg:max-w-4xl md:max-w-xl md:-right-36 lg:-right-12 md:-top-96 lg:-top-96"
+          />
         </div>
       </div>
     </div>
+    </div >
   )
 }
 
