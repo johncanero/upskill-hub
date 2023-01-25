@@ -1,6 +1,8 @@
 import React from 'react'
+import Link from 'next/link';
+import { UrlObject } from 'url';
 
-const CoursesCard = (props: { icon: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; title: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; paragraph: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; getstarted: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined }) => {
+const CoursesCard = (props: { icon: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; path: string | UrlObject; title: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; paragraph: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; getstarted: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; }) => {
     return (
         <div>
             {/* Card */}
@@ -14,7 +16,9 @@ const CoursesCard = (props: { icon: string | number | boolean | React.ReactEleme
                     <div className="px-6 py-4">
                         <h2 className="text-xl font-extrabold">{props.title}</h2>
                         <p className="mt-4 text-gray-500">{props.paragraph}</p>
-                        <h4 className="mt-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">{props.getstarted}</h4>
+                        <Link rel="noopener noreferrer" href={props.path} >
+                            <h4 className="mt-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">{props.getstarted}</h4>
+                        </Link>
                     </div>
                 </div>
             </div>

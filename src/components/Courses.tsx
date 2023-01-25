@@ -27,6 +27,7 @@ const Courses = () => {
           title="Animation"
           paragraph="Learn the latest animation techniques to create stunning motion design and captivate your audience."
           getstarted="Get Started"
+          path="/"
         />
 
 
@@ -35,13 +36,15 @@ const Courses = () => {
           title="Design"
           paragraph="Create beautiful, usable products and development to help shape the future of how the world works in digital and physical world."
           getstarted="Get Started"
+          path="/"
         />
 
         <CoursesCard
           icon={<HiCamera size={54} className='p-3 text-white bg-blue-500 rounded-full ' />}
           title="Photography"
-          paragraph="Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos."
+          paragraph="Explore critical fundamentals like lighting, composition, and focus to capture exceptional and worthwhile photos."
           getstarted="Get Started"
+          path="/"
         />
 
         <CoursesCard
@@ -49,6 +52,7 @@ const Courses = () => {
           title="Crypto"
           paragraph="All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course."
           getstarted="Get Started"
+          path="/"
         />
 
         <CoursesCard
@@ -56,6 +60,7 @@ const Courses = () => {
           title="Business"
           paragraph="A step-by-step playbook to help you start, scale, and sustain your business without ourside environment."
           getstarted="Get Started"
+          path="/"
         />
 
       </div>
