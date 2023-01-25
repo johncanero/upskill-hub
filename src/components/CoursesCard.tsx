@@ -7,11 +7,13 @@ const CoursesCard = (props: { icon: string | number | boolean | React.ReactEleme
         <div>
             {/* Card */}
             <div>
-                <div className="relative dark:border-white -top-6 -right-6">
-                    <div className='absolute'>
-                        {props.icon}
+                <Link rel="noopener noreferrer" href={props.path} >
+                    <div className="relative dark:border-white -top-6 -right-6">
+                        <div className='absolute'>
+                            {props.icon}
+                        </div>
                     </div>
-                </div>
+                </Link>
                 <div className="pt-10 overflow-hidden text-gray-800 shadow-xl font-OpenSans rounded-xl h-72 w-80 bg-slate-50 ">
                     <div className="px-6 py-4">
                         <h2 className="text-xl font-extrabold">{props.title}</h2>
