@@ -1,6 +1,8 @@
 import React from 'react'
 import CoursesCard from './CoursesCard'
 import { BiRun } from "@react-icons/all-files/bi/BiRun"
+import { IoMdCreate } from "@react-icons/all-files/io/IoMdCreate"
+import { HiCamera } from "@react-icons/all-files/hi/HiCamera"
 
 const Courses = () => {
   return (
@@ -27,13 +29,18 @@ const Courses = () => {
 
 
         <CoursesCard
-          icon={<BiRun size={54} className='p-3 text-white bg-blue-500 rounded-full ' />}
+          icon={<IoMdCreate size={54} className='p-3 text-white bg-blue-500 rounded-full ' />}
           title="Design"
           paragraph="Create beautiful, usable products and development to help shape the future of how the world works in digital and physical world."
           getstarted="Get Started"
         />
 
-
+        <CoursesCard
+          icon={<HiCamera size={54} className='p-3 text-white bg-blue-500 rounded-full ' />}
+          title="Photography"
+          paragraph="Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos."
+          getstarted="Get Started"
+        />
 
       </div>
 
