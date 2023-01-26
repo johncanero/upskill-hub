@@ -2,7 +2,7 @@ import React from 'react'
 
 const index = () => {
     return (
-        <div>
+        <div className='mx-8 mb-12 md:mx-28 lg:mx-64'>
             <h1 className="mt-6 text-2xl font-bold text-center font-OpenSans">
                 Find Your New Career
             </h1>
