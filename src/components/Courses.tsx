@@ -10,7 +10,7 @@ const Courses = () => {
   return (
     <div>
 
-      <div className='flex flex-wrap justify-center gap-10 mt-12 md:mt-24 lg:mx-48 lg:mt-52 mb-36'>
+      <div className='flex flex-wrap justify-center gap-10 mt-12 md:mt-24 lg:mx-56 lg:mt-52 mb-36'>
 
         {/* Card */}
         <div>
