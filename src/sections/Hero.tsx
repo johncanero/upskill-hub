@@ -51,21 +51,47 @@ const Hero = () => {
           {/* Sponsors */}
           <div className='flex mt-16'>
 
-            <Image
-              src="/images/udemyLogo.png"
-              width={110}
-              height={100}
-              alt="Udemy Logo"
-              className="h-12 w-32 mr-3"
-            />
+            <Link
+              // target="_blank"
+              rel="noopener noreferrer"
+              href="/"
+            >
+              <Image
+                src="/images/udemyLogo.png"
+                width={110}
+                height={100}
+                alt="Udemy Logo"
+                className="h-12 w-32 mt-3 mr-4"
+              />
+            </Link>
 
-            <Image
-              src="/images/courseraLogo2.png"
-              width={110}
-              height={100}
-              alt="Coursera Logo"
-              className="h-6 w-48 mt-4"
-            />
+            <Link
+              // target="_blank"
+              rel="noopener noreferrer"
+              href="/"
+            >
+              <Image
+                src="/images/courseraLogo2.png"
+                width={110}
+                height={100}
+                alt="Coursera Logo"
+                className="h-6 w-48 mt-6 mr-4"
+              />
+            </Link>
+
+            <Link
+              // target="_blank"
+              rel="noopener noreferrer"
+              href="/"
+            >
+              <Image
+                src="/images/edukasyonPH2.png"
+                width={110}
+                height={100}
+                alt="Edukasyon PH Logo"
+                className="h-16 w-48"
+              />
+            </Link>
           </div>
         </div>
       </div>
