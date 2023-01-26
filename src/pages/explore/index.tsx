@@ -13,7 +13,7 @@ const index = () => {
                     width={1200}
                     height={1000}
                     alt="Explore Unsplash"
-                    className="" />
+                    className=" max-h-fit" />
             </div>
 
         </div>
