@@ -9,7 +9,7 @@ const Hero = () => {
         <div className='mx-6 md:mx-12 lg:mx-0 lg:ml-64'>
           <h1 className='mt-12 text-4xl font-extrabold text-gray-900 dark:text-gray-100 md:mt-32 md:max-w-sm lg:max-w-2xl md:text-4xl lg:text-7xl font-OpenSans'>Maximize skill, minimize budget</h1>
 
-          <p className='mt-8 text-base text-gray-500 md:text-sm lg:text-base md:max-w-xs lg:max-w-sm dark:text-gray-400 font-OpenSans'>Our modern courses across range of in-demand skills will give you the knowledge you need to live the life you want.</p>
+          <p className='mt-8 text-base text-gray-600 md:text-sm lg:text-base md:max-w-xs lg:max-w-sm dark:text-gray-400 font-OpenSans'>Our modern courses across range of in-demand skills will give you the knowledge you need to live the life you want.</p>
 
           <div>
             <Link
