@@ -61,7 +61,7 @@ const Hero = () => {
                 width={110}
                 height={100}
                 alt="Udemy Logo"
-                className="h-12 w-32 mt-3 mr-4"
+                className="mt-3 mr-4 lg:h-12 lg:w-32"
               />
             </Link>
 
@@ -75,7 +75,7 @@ const Hero = () => {
                 width={110}
                 height={100}
                 alt="Coursera Logo"
-                className="h-6 w-48 mt-6 mr-4"
+                className="mt-6 mr-4 lg:w-48 lg:h-6"
               />
             </Link>
 
@@ -89,7 +89,7 @@ const Hero = () => {
                 width={110}
                 height={100}
                 alt="Edukasyon PH Logo"
-                className="h-16 w-48"
+                className="lg:mt-0 md:mt-2 lg:w-48 lg:h-16"
               />
             </Link>
           </div>
