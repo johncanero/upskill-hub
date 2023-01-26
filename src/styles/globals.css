@@ -13,9 +13,20 @@
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 1) {
 
  body {
         @apply sm:w-96;
+    }
+}
+
+/* Mobile */
+@media only screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+ body {
+        @apply sm:w-full;
     }
 }
