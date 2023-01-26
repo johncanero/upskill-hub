@@ -49,7 +49,7 @@ const Hero = () => {
 
 
           {/* Sponsors */}
-          <div className='flex mt-12'>
+          <div className='flex mt-16'>
 
             <Image
               src="/images/udemyLogo.png"
