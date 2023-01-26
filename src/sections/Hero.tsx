@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <div className=''>
+    <div>
       <div>
         <div className='mx-6 md:mx-12 lg:mx-0 lg:ml-64'>
           <h1 className='mt-12 text-4xl font-extrabold text-gray-900 dark:text-gray-100 md:mt-32 md:max-w-sm lg:max-w-2xl md:text-4xl lg:text-7xl font-OpenSans'>Maximize skill, minimize budget</h1>
@@ -36,18 +36,39 @@ const Hero = () => {
 
 
 
-        {/* Desktop and Tablet */}
-        <div className='relative hidden md:block md:-top-40 lg:-top-80'>
-          <Image
-            src="/images/e-learningDesktop6.png"
-            width={800}
-            height={800}
-            alt="E-Learning Desktop Feature Image"
-            className="absolute right-0 lg:max-w-4xl md:max-w-xl md:-right-36 lg:-right-12 md:-top-96 lg:-top-96"
-          />
+          {/* Desktop and Tablet */}
+          <div className='relative hidden md:block md:-top-40 lg:-top-80'>
+            <Image
+              src="/images/e-learningDesktop6.png"
+              width={800}
+              height={800}
+              alt="E-Learning Desktop Feature Image"
+              className="absolute right-0 lg:max-w-4xl md:max-w-xl md:-right-36 lg:-right-12 md:-top-96 lg:-top-96"
+            />
+          </div>
+
+
+          {/* Sponsors */}
+          <div className='flex mt-12'>
+
+            <Image
+              src="/images/udemyLogo.png"
+              width={110}
+              height={100}
+              alt="Udemy Logo"
+              className="h-12 w-32 mr-3"
+            />
+
+            <Image
+              src="/images/courseraLogo2.png"
+              width={110}
+              height={100}
+              alt="Coursera Logo"
+              className="h-6 w-48 mt-4"
+            />
+          </div>
         </div>
       </div>
-    </div>
     </div >
   )
 }
