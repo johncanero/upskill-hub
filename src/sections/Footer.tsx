@@ -34,9 +34,9 @@ const Footer = () => {
       </div>
 
 
-      <div className="flex justify-center md:justify-between">
+      <div className="justify-center md:flex md:justify-between">
         {/* Icons */}
-        <div className="flex gap-6 pt-4">
+        <div className="flex justify-center gap-6 pt-5">
           <AiFillFacebook size={28} />
           <AiOutlineTwitter size={28} />
           <FiInstagram size={28} />
@@ -44,7 +44,7 @@ const Footer = () => {
 
 
         {/* Copyright */}
-        <div className="pt-4 text-sm text-gray-600 md:text-base md:mt-1 font-OpenSans">
+        <div className="pt-4 text-sm text-center text-gray-600 md:text-base md:mt-1 font-OpenSans">
           <Link
             target="_blank"
             rel="noopener noreferrer"
