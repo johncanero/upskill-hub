@@ -1,5 +1,8 @@
 import React from "react";
 import Link from "next/link";
+import { AiFillFacebook } from "@react-icons/all-files/ai/AiFillFacebook"
+import { AiOutlineTwitter } from "@react-icons/all-files/ai/AiOutlineTwitter"
+import { FiInstagram } from "@react-icons/all-files/fi/FiInstagram"
 
 const Footer = () => {
   return (
@@ -31,19 +34,33 @@ const Footer = () => {
       </div>
 
 
-      {/* Copyright */}
-      <div className="pt-4 text-sm text-center text-gray-600 md:text-base md:text-right md:mt-1 font-OpenSans">
-        <Link
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/johncanero/"
-        >
-          <span className="mr-2 font-bold text-gray-800 dark:text-gray-300">
-            John Cañero
-          </span>
-        </Link>
-        &copy; {new Date().getFullYear()} All Rights Reserved
+      <div className="flex justify-center md:justify-between">
+        {/* Icons */}
+        <div className="flex gap-6 pt-4">
+          <AiFillFacebook size={28} />
+          <AiOutlineTwitter size={28} />
+          <FiInstagram size={28} />
+        </div>
+
+
+        {/* Copyright */}
+        <div className="pt-4 text-sm text-gray-600 md:text-base md:mt-1 font-OpenSans">
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/johncanero/"
+          >
+            <span className="mr-2 font-bold text-gray-800 dark:text-gray-300">
+              John Cañero
+            </span>
+          </Link>
+          &copy; {new Date().getFullYear()} All Rights Reserved
+        </div>
       </div>
+
+
+
+
     </footer>
   );
 };
