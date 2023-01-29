@@ -9,7 +9,7 @@ const index = () => {
 
             <div className='max-w-3xl mx-auto mt-6 text-justify dark:text-gray-400 '>
                 <p>
-                   <span className='font-bold text-black dark:text-white'> 1. Assess your skills and interests:</span> Take some time to reflect on your current skills, interests, and values, and how they align with different careers. You can use self-assessment tools and quizzes to help you identify potential career paths.
+                    <span className='font-bold text-black dark:text-white'> 1. Assess your skills and interests:</span> Take some time to reflect on your current skills, interests, and values, and how they align with different careers. You can use self-assessment tools and quizzes to help you identify potential career paths.
                 </p>
                 <br></br>
                 <p>
@@ -36,7 +36,12 @@ const index = () => {
                     <span className='font-bold text-black dark:text-white'>7. Keep an open mind and be flexible: </span>Finding a new career can take time and may require some trial and error. Keep an open mind and be willing to consider different options and opportunities as they come up.
                 </p>
 
-
+                {/* Chat GPT */}
+                <div>
+                    <p className="mt-6 text-xs text-center md:text-sm dark:text-gray-400">
+                        From ChatGPT: Optimizing Language Model for Dialogue
+                    </p>
+                </div>
 
 
 

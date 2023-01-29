@@ -12,7 +12,7 @@ const index = () => {
 
             <div className='max-w-3xl mx-auto mt-6 text-justify dark:text-gray-400 '>
                 <p>
-                    The Explore page of the e-learning website: <span className='font-bold text-black dark:text-white'>Upskill Hub</span> is where users can discover a wide variety of online courses, mentors, and sponsors. The page is designed to be user-friendly and easy to navigate, making it easy for users to find the courses and mentors that are right for them.
+                    <span className='font-bold text-black dark:text-white'>Upskill Hub</span> is where users can discover a wide variety of online courses, mentors, and sponsors. The page is designed to be user-friendly and easy to navigate, making it easy for users to find the courses and mentors that are right for them.
                 </p>
                 <br></br>
                 <p>
@@ -28,7 +28,7 @@ const index = () => {
                 </p>
                 <br></br>
                 <p>
-                    Overall, Upskill Hub is a one-stop-shop for students looking to expand their knowledge and skills, and for professionals looking to advance their careers. With a wide variety of courses, mentors, and sponsors to choose from, <span className='italic text-black dark:text-white'>it's a great resource for anyone looking to upskill in a specific field.</span>
+                    Overall, Upskill Hub is a one-stop-shop for students looking to expand their knowledge and skills, and for professionals looking to advance their careers. With a wide variety of courses, mentors, and sponsors to choose from, <span className='italic font-semibold text-black dark:text-white'>it's a great resource for anyone looking to upskill in a specific field.</span>
                 </p>
             </div>
 
