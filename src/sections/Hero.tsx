@@ -26,9 +26,9 @@ const Hero = () => {
           {/* Mobile */}
           <div className='relative block md:hidden'>
             <Image
-              src="/images/e-learningMobile2.png"
-              width={900}
-              height={900}
+              src="/images/e-learningMobile3Compressed.png"
+              width={1000}
+              height={1000}
               alt="E-Learning Mobile Feature Image"
               className="mx-auto mt-6"
             />
@@ -49,7 +49,7 @@ const Hero = () => {
 
 
           {/* Sponsors */}
-          <div className='flex flex-wrap justify-center mx-16 mt-12 md:justify-start md:mx-0'>
+          <div className='justify-center mt-12 text-center md:flex md:flex-wrap md:justify-start md:mx-0'>
 
           {/* Udemy */}
             <Link
@@ -62,7 +62,7 @@ const Hero = () => {
                 width={110}
                 height={100}
                 alt="Udemy Logo"
-                className="mt-3 md:mr-4 lg:h-12 lg:w-32"
+                className="mx-auto mt-3 md:mx-0 md:mr-4 lg:h-12 lg:w-32"
               />
             </Link>
 
@@ -77,7 +77,7 @@ const Hero = () => {
                 width={110}
                 height={100}
                 alt="Coursera Logo"
-                className="mt-10 md:mr-4 md:mt-6 md:w-32 lg:w-48 lg:h-6"
+                className="w-32 mx-auto mt-10 md:mr-4 md:mt-6 lg:w-48 lg:h-6 md:mx-0"
               />
             </Link>
 
@@ -92,7 +92,7 @@ const Hero = () => {
                 width={100}
                 height={100}
                 alt="Edukasyon PH Logo"
-                className="mt-10 lg:mt-0 md:mt-2 md:w-28 lg:w-48 lg:h-14"
+                className="w-32 mx-auto mt-10 lg:mt-0 md:mt-2 md:w-28 lg:w-48 lg:h-14 md:mx-0"
               />
             </Link>
           </div>
