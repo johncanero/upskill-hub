@@ -37,13 +37,13 @@ const Hero = () => {
 
 
           {/* Desktop and Tablet */}
-          <div className='relative hidden md:block md:-top-40 lg:-top-80'>
+          <div className='relative hidden md:block md:-top-44 lg:-top-80'>
             <Image
               src="/images/e-learningDesktop6.png"
               width={800}
               height={800}
               alt="E-Learning Desktop Feature Image"
-              className="absolute right-0 lg:max-w-4xl md:max-w-xl md:-right-36 lg:-right-12 md:-top-96 lg:-top-96"
+              className="absolute right-0 lg:max-w-4xl md:max-w-xl md:-right-40 lg:-right-12 md:-top-96 lg:-top-96"
             />
           </div>
 
@@ -77,7 +77,7 @@ const Hero = () => {
                 width={110}
                 height={100}
                 alt="Coursera Logo"
-                className="mt-10 md:mr-4 md:mt-6 lg:w-48 lg:h-6"
+                className="mt-10 md:mr-4 md:mt-6 md:w-32 lg:w-48 lg:h-6"
               />
             </Link>
 
@@ -92,7 +92,7 @@ const Hero = () => {
                 width={100}
                 height={100}
                 alt="Edukasyon PH Logo"
-                className="mt-10 lg:mt-0 md:mt-2 lg:w-48 lg:h-14"
+                className="mt-10 lg:mt-0 md:mt-2 md:w-28 lg:w-48 lg:h-14"
               />
             </Link>
           </div>
