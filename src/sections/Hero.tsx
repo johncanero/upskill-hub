@@ -88,11 +88,11 @@ const Hero = () => {
               href="/"
             >
               <Image
-                src="/images/edukasyonPH2.png"
-                width={110}
+                src="/images/edukasyonPH4.png"
+                width={100}
                 height={100}
                 alt="Edukasyon PH Logo"
-                className="mt-10 lg:mt-0 md:mt-2 lg:w-48 lg:h-16"
+                className="mt-10 lg:mt-0 md:mt-2 lg:w-48 lg:h-14"
               />
             </Link>
           </div>
