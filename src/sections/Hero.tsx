@@ -26,7 +26,7 @@ const Hero = () => {
           {/* Mobile */}
           <div className='relative block md:hidden'>
             <Image
-              src="/images/e-learningMobile3Compressed.png"
+              src="/images/e-learningMobile4.png"
               width={1000}
               height={1000}
               alt="E-Learning Mobile Feature Image"
