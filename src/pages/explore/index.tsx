@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const index = () => {
     return (
-        <div className='mx-8 mb-12 md:mx-28 lg:mx-64'>
+        <div className='mx-8 mb-24 md:mx-28 lg:mx-64'>
             <h1 className="mt-6 text-2xl font-bold text-center font-OpenSans">
                 Explore
             </h1>

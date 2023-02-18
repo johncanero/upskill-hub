@@ -5,28 +5,8 @@
 
 @layer base {
     body {
-        @apply dark:bg-gray-900 bg-slate-100  dark:text-gray-100   text-gray-900
+        @apply dark:bg-gray-900 bg-slate-100  dark:text-gray-100 text-gray-900
     }
 }
 
-/* Mobile */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 1) {
 
- body {
-        @apply sm:w-96;
-    }
-}
-
-/* Mobile */
-@media only screen 
-  and (min-device-width: 390px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-
- body {
-        @apply sm:w-full;
-    }
-}

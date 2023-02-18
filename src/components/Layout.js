@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "@/sections/Header";
 import Footer from "@/sections/Footer";
 import MobileDropdown from "@/sections/MobileDropdown";
+import MobileFooter from "@/sections/MobileFooter";
 
 const Layout = ({ children }) => {
   return (
@@ -28,6 +29,7 @@ const Layout = ({ children }) => {
         <MobileDropdown />
         <main className="flex-grow">{children}</main>
         <Footer />
+        <MobileFooter />
       </div>
     </>
   );

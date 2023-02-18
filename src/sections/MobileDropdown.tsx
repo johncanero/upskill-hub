@@ -62,7 +62,7 @@ const MobileDropdown = () => {
               clipRule="evenodd"
             />
           </svg>
-          <span className="">Light/Dark Mode</span>
+          <span className="font-OpenSans font-medium">Light/Dark Mode</span>
         </Button>
       );
     }
@@ -138,7 +138,7 @@ const MobileDropdown = () => {
               leaveFrom="transform opacity-100 scale-100"
               leaveTo="transform opacity-0 scale-95"
             >
-              <Menu.Items className="absolute right-0 w-56 mt-2 origin-top-right bg-white divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+              <Menu.Items className=" absolute right-0 w-56 mt-2 origin-top-right bg-white divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ">
                 {/* Home */}
                 <div className="px-1 py-1 ">
                   <Menu.Item>
@@ -151,7 +151,7 @@ const MobileDropdown = () => {
                             } group flex w-full items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <FaHome size={17} />
-                          <span className="ml-2">Home</span>
+                          <span className="ml-2 font-OpenSans font-medium">Home</span>
                         </button>
                       </Link>
                     )}
@@ -167,7 +167,7 @@ const MobileDropdown = () => {
                             } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <BiSearchAlt size={17} />
-                          <span className="ml-2">Explore</span>
+                          <span className="ml-2 font-OpenSans font-medium">Explore</span>
                         </button>
                       </Link>
                     )}
@@ -186,7 +186,7 @@ const MobileDropdown = () => {
                             } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <GoLightBulb size={17} />
-                          <span className="ml-2">Online Courses</span>
+                          <span className="ml-2 font-OpenSans font-medium">Online Courses</span>
                         </button>
                       </Link>
                     )}
@@ -202,7 +202,7 @@ const MobileDropdown = () => {
                             } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <GiNetworkBars size={17} />
-                          <span className="ml-2">Find Your New Career</span>
+                          <span className="ml-2 font-OpenSans font-medium">Find Your New Career</span>
                         </button>
                       </Link>
                     )}
