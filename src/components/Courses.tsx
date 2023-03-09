@@ -69,7 +69,6 @@ const Courses = () => {
           getstarted="Get Started"
           path="/"
         />
-
       </div>
 
 

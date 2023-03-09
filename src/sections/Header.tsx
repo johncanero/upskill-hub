@@ -113,7 +113,7 @@ const Header = () => {
                 href="/online-courses"
                 className="font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
               >
-                Online Careers
+                Online Courses
               </Link>
 
               <Link
