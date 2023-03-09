@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Hero from '@/sections/Hero'
+// Courses Section
 import Courses from '@/components/Courses'
 
 export default function Home() {

@@ -1,11 +1,15 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import Head from "next/head";
 import Header from "@/sections/Header";
 import Footer from "@/sections/Footer";
 import MobileDropdown from "@/sections/MobileDropdown";
 import MobileFooter from "@/sections/MobileFooter";
 
-const Layout = ({ children }) => {
+interface LayoutProps {
+  children: ReactNode;
+}
+
+const Layout = ({ children }: LayoutProps): JSX.Element => {
   return (
     <>
       {/* Head */}
@@ -34,4 +38,5 @@ const Layout = ({ children }) => {
     </>
   );
 };
+
 export default Layout;

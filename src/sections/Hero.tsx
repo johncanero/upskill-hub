@@ -37,7 +37,7 @@ const Hero = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{
               delay: 0.6,
-              duration: 1,
+              duration: 0.8,
             }}
           >
             {/* Mobile */}

@@ -1,8 +1,11 @@
 import React from "react";
 import Link from "next/link";
+// React Icons
 import { AiFillFacebook } from "@react-icons/all-files/ai/AiFillFacebook"
 import { AiOutlineTwitter } from "@react-icons/all-files/ai/AiOutlineTwitter"
 import { FiInstagram } from "@react-icons/all-files/fi/FiInstagram"
+// Framer-Motion
+import { motion } from "framer-motion"
 
 const Footer = () => {
   return (
@@ -44,7 +47,13 @@ const Footer = () => {
 
 
         {/* Copyright */}
-        <div className="pt-4 text-sm text-center text-gray-600 md:text-base md:mt-1 font-OpenSans">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{
+            duration: 0.3,
+          }}
+          className="pt-4 text-sm text-center text-gray-600 md:text-base md:mt-1 font-OpenSans">
           <Link
             target="_blank"
             rel="noopener noreferrer"
@@ -55,7 +64,7 @@ const Footer = () => {
             </span>
           </Link>
           &copy; {new Date().getFullYear()} All Rights Reserved
-        </div>
+        </motion.div>
       </div>
 
 

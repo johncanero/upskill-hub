@@ -1,12 +1,20 @@
 import React from 'react'
 import Link from 'next/link';
 import { UrlObject } from 'url';
+// Framer-Motion
+import { motion } from "framer-motion"
 
 const CoursesCard = (props: { icon: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; path: string | UrlObject; title: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; paragraph: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; getstarted: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; }) => {
     return (
         <div>
             {/* Card */}
-            <div>
+            <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{
+                    duration: 0.3,
+                }}
+            >
                 <Link rel="noopener noreferrer" href={props.path} >
                     <div className="relative dark:border-white -top-6 -right-6">
                         <div className='absolute'>
@@ -23,7 +31,7 @@ const CoursesCard = (props: { icon: string | number | boolean | React.ReactEleme
                         </Link>
                     </div>
                 </div>
-            </div>
+            </motion.div>
 
         </div>
     )
