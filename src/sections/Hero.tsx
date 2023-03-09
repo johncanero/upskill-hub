@@ -9,7 +9,14 @@ const Hero = () => {
     <div>
       <div>
         <div className='mx-6 md:mx-12 lg:mx-0 lg:ml-64'>
-          <h1 className='mt-12 text-4xl font-extrabold text-gray-900 dark:text-gray-100 md:mt-32 md:max-w-sm lg:max-w-2xl md:text-4xl lg:text-7xl font-OpenSans'>Maximize skill, minimize budget</h1>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{
+              duration: 0.6,
+            }}>
+            <h1 className='mt-12 text-4xl font-extrabold text-gray-900 dark:text-gray-100 md:mt-32 md:max-w-sm lg:max-w-2xl md:text-4xl lg:text-7xl font-OpenSans'>Maximize skill, minimize budget</h1>
+          </motion.div>
 
           <p className='mt-8 text-base text-gray-600 md:text-sm lg:text-base md:max-w-xs lg:max-w-sm dark:text-gray-400 font-OpenSans'>Our modern courses across range of in-demand skills will give you the knowledge you need to live the life you want.</p>
 
@@ -29,8 +36,8 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 1.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
-              delay: 0.3,
-              duration: 0.6,
+              delay: 0.6,
+              duration: 1,
             }}
           >
             {/* Mobile */}
@@ -60,8 +67,14 @@ const Hero = () => {
 
 
           {/* Sponsors */}
-          <div className='justify-center mt-12 text-center md:flex md:flex-wrap md:justify-start md:mx-0'>
-
+          <motion.div
+            initial={{ y: 5, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{
+              delay: 0.6,
+              duration: 1,
+            }}
+            className='justify-center mt-12 text-center md:flex md:flex-wrap md:justify-start md:mx-0'>
             {/* Udemy */}
             <Link
               // target="_blank"
@@ -73,7 +86,7 @@ const Hero = () => {
                 width={110}
                 height={100}
                 alt="Udemy Logo"
-                className="mx-auto mt-3 md:mx-0 md:mr-4 lg:h-12 lg:w-32"
+                className="mx-auto mt-3 md:mx-0 md:mr-4 lg:h-10 lg:w-28"
               />
             </Link>
 
@@ -88,7 +101,7 @@ const Hero = () => {
                 width={110}
                 height={100}
                 alt="Coursera Logo"
-                className="w-32 mx-auto mt-10 md:mr-4 md:mt-6 lg:w-48 lg:h-6 md:mx-0"
+                className="w-32 mx-auto mt-10 md:mr-4 md:mt-6 lg:w-44 lg:h-5 md:mx-0"
               />
             </Link>
 
@@ -103,10 +116,10 @@ const Hero = () => {
                 width={100}
                 height={100}
                 alt="Edukasyon PH Logo"
-                className="w-32 mx-auto mt-10 lg:mt-0 md:mt-2 md:w-28 lg:w-48 lg:h-14 md:mx-0"
+                className="w-32 mx-auto mt-10 lg:mt-1 md:mt-2 md:w-28 lg:w-44 lg:h-12 md:mx-0"
               />
             </Link>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div >

@@ -1,9 +1,12 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+// Dark Theme Effect
 import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
 import Button from "@/components/Button";
+// Framer-Motion
+import { motion } from "framer-motion"
 
 const Header = () => {
   // Dark Theme
@@ -59,7 +62,13 @@ const Header = () => {
 
           {/* Heading Title */}
           <div className="flex">
-            <div className="flex">
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{
+                duration: 0.6,
+              }}
+              className="flex">
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
@@ -77,7 +86,7 @@ const Header = () => {
                   upskillHub
                 </h1>
               </Link>
-            </div>
+            </motion.div>
           </div>
 
           {/* Pages */}
