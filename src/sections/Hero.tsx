@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+// Framer-Motion
+import { motion } from "framer-motion"
 
 const Hero = () => {
   return (
@@ -23,35 +25,44 @@ const Hero = () => {
             </Link>
           </div>
 
-          {/* Mobile */}
-          <div className='relative block md:hidden'>
-            <Image
-              src="/images/e-learningMobile4.png"
-              width={1000}
-              height={1000}
-              alt="E-Learning Mobile Feature Image"
-              className="mx-auto mt-6"
-            />
-          </div>
+          <motion.div
+            initial={{ opacity: 0, scale: 1.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              delay: 0.3,
+              duration: 0.6,
+            }}
+          >
+            {/* Mobile */}
+            <div className='relative block md:hidden'>
+              <Image
+                src="/images/e-learningMobile4.png"
+                width={1000}
+                height={1000}
+                alt="E-Learning Mobile Feature Image"
+                className="mx-auto mt-6"
+              />
+            </div>
 
 
 
-          {/* Desktop and Tablet */}
-          <div className='relative hidden md:block md:-top-44 lg:-top-80'>
-            <Image
-              src="/images/e-learningDesktop6.png"
-              width={800}
-              height={800}
-              alt="E-Learning Desktop Feature Image"
-              className="absolute right-0 lg:max-w-4xl md:max-w-xl md:-right-40 lg:-right-12 md:-top-96 lg:-top-96"
-            />
-          </div>
+            {/* Desktop and Tablet */}
+            <div className='relative hidden md:block md:-top-44 lg:-top-80'>
+              <Image
+                src="/images/e-learningDesktop6.png"
+                width={800}
+                height={800}
+                alt="E-Learning Desktop Feature Image"
+                className="absolute right-0 lg:max-w-4xl md:max-w-xl md:-right-40 lg:-right-12 md:-top-96 lg:-top-96"
+              />
+            </div>
+          </motion.div>
 
 
           {/* Sponsors */}
           <div className='justify-center mt-12 text-center md:flex md:flex-wrap md:justify-start md:mx-0'>
 
-          {/* Udemy */}
+            {/* Udemy */}
             <Link
               // target="_blank"
               rel="noopener noreferrer"
