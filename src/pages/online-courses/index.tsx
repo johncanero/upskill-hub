@@ -1,7 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-// React Icons
-import { BiRun } from "@react-icons/all-files/bi/BiRun"
 // Framer-Motion
 import { motion } from "framer-motion"
 
@@ -22,188 +20,146 @@ const index = () => {
                     transition={{
                         duration: 0.8
                     }}>
-                    <div className="overflow-hidden text-white shadow-xl rounded-xl h-72 w-full bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
+                    <div className="w-full overflow-hidden text-white shadow-xl rounded-xl h-72 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
                         <div>
                             {/* Image */}
                             <Image
                                 src="/images/courses/animation-min.jpg"
                                 width={300}
                                 height={300}
-                                alt="Explore Portrait"
+                                alt="Animation"
                                 className="lg:block"
                             />
                             <div className='flex justify-center mt-2'>
-                                {/* <BiRun size={20} className='text-gray-900 mr-1 mt-1' /> */}
-                                <h2 className="mb-2 text-md font-bold text-gray-900 mt-2 font-OpenSans">Animation</h2>
+                                <h2 className="mt-2 mb-2 font-bold text-gray-900 text-md font-OpenSans">Animation</h2>
                             </div>
                         </div>
                     </div>
                 </motion.div>
 
-                {/* Card */}
+                {/* Card 2 */}
                 <motion.div
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{
-                        duration: 0.8,
-                    }}
-                >
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
-                        <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
+                        duration: 0.8
+                    }}>
+                    <div className="w-full overflow-hidden text-white shadow-xl rounded-xl h-72 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
+                        <div>
+                            {/* Image */}
+                            <Image
+                                src="/images/courses/woodwork2-min.jpg"
+                                width={300}
+                                height={300}
+                                alt="Woodwork"
+                                className="lg:block"
+                            />
+                            <div className='flex justify-center mt-2'>
+                                <h2 className="mt-2 mb-2 font-bold text-gray-900 text-md font-OpenSans">Woodworking Basics</h2>
+                            </div>
                         </div>
                     </div>
                 </motion.div>
 
-                {/* Card */}
+                {/* Card 3 */}
                 <motion.div
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{
-                        duration: 0.8,
-                    }}
-                >
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
-                        <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
+                        duration: 0.8
+                    }}>
+                    <div className="w-full overflow-hidden text-white shadow-xl rounded-xl h-72 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
+                        <div>
+                            {/* Image */}
+                            <Image
+                                src="/images/courses/music-production.jpg"
+                                width={300}
+                                height={300}
+                                alt="Woodwork"
+                                className="lg:block"
+                            />
+                            <div className='flex justify-center mt-2'>
+                                <h2 className="mt-2 mb-2 font-bold text-gray-900 text-md font-OpenSans">Music Production</h2>
+                            </div>
                         </div>
                     </div>
                 </motion.div>
 
-                {/* Card */}
+
+                {/* Card 4 */}
                 <motion.div
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{
-                        duration: 0.8,
-                    }}
-                >
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
-                        <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
+                        duration: 0.8
+                    }}>
+                    <div className="w-full overflow-hidden text-white shadow-xl rounded-xl h-72 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
+                        <div>
+                            {/* Image */}
+                            <Image
+                                src="/images/courses/pottery3-min.jpg"
+                                width={300}
+                                height={300}
+                                alt="Woodwork"
+                                className="lg:block"
+                            />
+                            <div className='flex justify-center mt-2'>
+                                <h2 className="mt-2 mb-2 font-bold text-gray-900 text-md font-OpenSans">Pottery</h2>
+                            </div>
                         </div>
                     </div>
                 </motion.div>
 
-                {/* Card */}
+                {/* Card 5 */}
                 <motion.div
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{
-                        duration: 0.8,
-                    }}
-                >
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
-                        <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
+                        duration: 0.8
+                    }}>
+                    <div className="w-full overflow-hidden text-white shadow-xl rounded-xl h-72 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
+                        <div>
+                            {/* Image */}
+                            <Image
+                                src="/images/courses/ux-design.jpg"
+                                width={300}
+                                height={300}
+                                alt="Woodwork"
+                                className="lg:block"
+                            />
+                            <div className='flex justify-center mt-2'>
+                                <h2 className="mt-2 mb-2 font-bold text-gray-900 text-md font-OpenSans">UX Design</h2>
+                            </div>
                         </div>
                     </div>
                 </motion.div>
 
-                {/* Card */}
+                {/* Card 6 */}
                 <motion.div
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{
-                        duration: 0.8,
-                    }}
-                >
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
-                        <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
+                        duration: 0.8
+                    }}>
+                    <div className="w-full overflow-hidden text-white shadow-xl rounded-xl h-72 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
+                        <div>
+                            {/* Image */}
+                            <Image
+                                src="/images/courses/film-production.jpg"
+                                width={300}
+                                height={300}
+                                alt="Woodwork"
+                                className="lg:block"
+                            />
+                            <div className='flex justify-center mt-2'>
+                                <h2 className="mt-2 mb-2 font-bold text-gray-900 text-md font-OpenSans">Film Production</h2>
+                            </div>
                         </div>
                     </div>
                 </motion.div>
 
-                {/* Card */}
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{
-                        duration: 0.8,
-                    }}
-                >
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
-                        <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
-                        </div>
-                    </div>
-                </motion.div>
 
-                {/* Card */}
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{
-                        duration: 0.8,
-                    }}
-                >
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
-                        <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
-                        </div>
-                    </div>
-                </motion.div>
 
-                {/* Card */}
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{
-                        duration: 0.8,
-                    }}
-                >
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
-                        <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
-                        </div>
-                    </div>
-                </motion.div>
-
-                {/* Card */}
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{
-                        duration: 0.8,
-                    }}
-                >
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
-                        <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
-                        </div>
-                    </div>
-                </motion.div>
-
-                {/* Card */}
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{
-                        duration: 0.8,
-                    }}
-                >
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
-                        <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
-                        </div>
-                    </div>
-                </motion.div>
-
-                {/* Card */}
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{
-                        duration: 0.8,
-                    }}
-                >
-                    <div className="pt-6 overflow-hidden text-white shadow-xl rounded-xl h-72 w-80 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
-                        <div className="px-6">
-                            <h2 className="mb-2 text-lg font-bold text-center font-OpenSans"></h2>
-                        </div>
-                    </div>
-                </motion.div>
             </div>
         </div>
     )
