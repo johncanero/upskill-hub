@@ -7,6 +7,23 @@ import { motion } from "framer-motion"
 const index = () => {
     return (
         <div className='mx-8 mb-24 md:mx-28 lg:mx-64'>
+            <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{
+                    delay: 0.3,
+                    duration: 0.4,
+                }}
+            >
+                {/* Mobile and Tablet */}
+                <Image
+                    src="/images/pages/exploreLandscape-min.jpg"
+                    width={550}
+                    height={300}
+                    alt="Explore Landscape"
+                    className="mx-auto mt-6 lg:hidden rounded-xl"
+                />
+            </motion.div>
             <h1 className="mt-6 text-2xl font-bold text-center font-OpenSans">
                 Explore
             </h1>
@@ -55,14 +72,6 @@ const index = () => {
                             duration: 0.4,
                         }}
                     >
-                        {/* Mobile and Tablet */}
-                        <Image
-                            src="/images/pages/exploreLandscape-min.jpg"
-                            width={550}
-                            height={300}
-                            alt="Explore Landscape"
-                            className="mx-auto mt-6 lg:hidden rounded-xl"
-                        />
                         {/* Desktop */}
                         <Image
                             src="/images/pages/explorePortrait-min.jpg"
