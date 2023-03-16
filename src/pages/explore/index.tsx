@@ -7,6 +7,10 @@ import { motion } from "framer-motion"
 const index = () => {
     return (
         <div className='mx-8 mb-24 md:mx-28 lg:mx-64'>
+
+            <h1 className="mt-6 text-2xl font-bold text-center font-OpenSans">
+                Explore
+            </h1>
             <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
@@ -21,12 +25,9 @@ const index = () => {
                     width={550}
                     height={300}
                     alt="Explore Landscape"
-                    className="mx-auto mt-6 lg:hidden rounded-xl"
+                    className="mx-auto mt-4 lg:hidden rounded-xl"
                 />
             </motion.div>
-            <h1 className="mt-6 text-2xl font-bold text-center font-OpenSans">
-                Explore
-            </h1>
 
             <div className='justify-center lg:flex'>
 
