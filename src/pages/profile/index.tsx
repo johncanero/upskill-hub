@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 // Icon
 import { CgProfile } from "@react-icons/all-files/cg/CgProfile"
+import { BsChevronDown } from '@react-icons/all-files/bs/BsChevronDown'
 
 const index = () => {
     return (
@@ -28,17 +29,20 @@ const index = () => {
                             <p>Browse Catalog</p>
                             <p>My Courses</p>
                         </div>
-                        <div className='lg:mr-56'>
-                            <p>How it Works</p>
+                        <div className='lg:mr-56 font-semibold text-white'>
+                            <div className='flex gap-2'>
+                                <p>How it Works</p>
+                                <BsChevronDown className='mt-1' size={16}/>
+                            </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-
+            {/* 
             <div className='flex justify-center mt-10'>
                 <CgProfile size={80} />
-            </div>
+            </div> */}
         </div>
     )
 }
