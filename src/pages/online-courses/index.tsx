@@ -75,7 +75,7 @@ const index = () => {
                                 src="/images/courses/music-production.jpg"
                                 width={300}
                                 height={300}
-                                alt="Woodwork"
+                                alt="Music Production"
                                 className="lg:block"
                             />
                             <div className='flex justify-center mt-2'>
@@ -100,7 +100,7 @@ const index = () => {
                                 src="/images/courses/pottery3-min.jpg"
                                 width={300}
                                 height={300}
-                                alt="Woodwork"
+                                alt="Pottery"
                                 className="lg:block"
                             />
                             <div className='flex justify-center mt-2'>
@@ -124,7 +124,7 @@ const index = () => {
                                 src="/images/courses/ux-design.jpg"
                                 width={300}
                                 height={300}
-                                alt="Woodwork"
+                                alt="UX Design"
                                 className="lg:block"
                             />
                             <div className='flex justify-center mt-2'>
@@ -148,11 +148,35 @@ const index = () => {
                                 src="/images/courses/film-production.jpg"
                                 width={300}
                                 height={300}
-                                alt="Woodwork"
+                                alt="Film Production"
                                 className="lg:block"
                             />
                             <div className='flex justify-center mt-2'>
                                 <h2 className="mt-2 mb-2 font-bold text-gray-900 text-md font-OpenSans">Film Production</h2>
+                            </div>
+                        </div>
+                    </div>
+                </motion.div>
+
+                {/* Card 6 */}
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{
+                        duration: 0.8
+                    }}>
+                    <div className="w-full overflow-hidden text-white shadow-xl rounded-xl h-72 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
+                        <div>
+                            {/* Image */}
+                            <Image
+                                src="/images/courses/programming-min.jpg"
+                                width={300}
+                                height={300}
+                                alt="Programming"
+                                className="lg:block"
+                            />
+                            <div className='flex justify-center mt-2'>
+                                <h2 className="mt-2 mb-2 font-bold text-gray-900 text-md font-OpenSans">Programming</h2>
                             </div>
                         </div>
                     </div>
