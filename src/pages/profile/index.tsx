@@ -12,14 +12,14 @@ const index = () => {
             </h1> */}
             <div>
                 {/* Component: Rectangle Background: Grow with Upskill Hub */}
-                <div className="md:px-12 px-6 lg:pl-64 h-44 md:h-52 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-blue-600 hover:to-cyan-600 text-black dark:text-white font-OpenSans">
-                    <h2 className='md:pt-12 md:text-3xl text-2xl pt-8 lg:text-4xl font-bold'>Grow with Upskill Hub</h2>
-                    <p className='lg:text-lg mt-1'>Learner help support: <Link
-                            rel="noopener noreferrer"
-                            href="https://upskillhub-by-johncanero.vercel.app/"
-                            className='hover:text-gray-800'>
-                            https://upskillhub-by-johncanero.vercel.app/
-                        </Link>
+                <div className="md:px-12 px-6 lg:pl-64 h-44 md:h-48 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-blue-600 hover:to-cyan-600 text-black dark:text-white font-OpenSans">
+                    <h2 className='md:pt-12 md:text-3xl text-2xl pt-8 lg:text-4xl font-bold text-gray-900 dark:text-white'>Grow with Upskill Hub</h2>
+                    <p className='lg:text-lg mt-1 text-gray-800 dark:text-white '>Learner help support: <Link
+                        rel="noopener noreferrer"
+                        href="https://upskillhub-by-johncanero.vercel.app/"
+                        className='hover:text-gray-900'>
+                        https://upskillhub-by-johncanero.vercel.app/
+                    </Link>
                     </p>
                 </div>
 
@@ -30,12 +30,17 @@ const index = () => {
                             <Link
                                 rel="noopener noreferrer"
                                 href="/online-courses"
-                                className='hover:text-gray-200'>
+                                className='hover:text-gray-600 dark:hover:text-gray-200'>
                                 <p>Browse Catalog</p>
                             </Link>
-                            <p>My Courses</p>
+
+                            <Link rel="noopener noreferrer"
+                                href="/profile"
+                                className='hover:text-gray-600 dark:hover:text-gray-200'>
+                                <p>My Courses</p>
+                            </Link>
                         </div>
-                        <div className='lg:mr-56 font-semibold text-white'>
+                        <div className='lg:mr-56 font-semibold text-gray-800 dark:text-white'>
                             <div className='flex gap-2'>
                                 <p>How it Works</p>
                                 <BsChevronDown className='mt-1' size={16} />
