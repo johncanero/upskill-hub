@@ -3,6 +3,7 @@ import Link from 'next/link'
 // Icon
 import { CgProfile } from "@react-icons/all-files/cg/CgProfile"
 import { BsChevronDown } from '@react-icons/all-files/bs/BsChevronDown'
+import { AiOutlineArrowRight } from '@react-icons/all-files/ai/AiOutlineArrowRight'
 
 const index = () => {
     return (
@@ -41,13 +42,36 @@ const index = () => {
                             </Link>
                         </div>
                         <div className='lg:mr-56 font-semibold text-gray-800 dark:text-white'>
-                            <div className='flex gap-2'>
-                                <p>How it Works</p>
-                                <BsChevronDown className='mt-1' size={16} />
-                            </div>
+                            <Link rel="noopener noreferrer"
+                                href="/profile"
+                                className='hover:text-gray-600 dark:hover:text-gray-200'>
+                                <div className='flex gap-2'>
+                                    <p>How it Works</p>
+                                    <BsChevronDown className='mt-1' size={16} />
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
+
+
+                {/* My Recent Activity and View my Courses*/}
+                <div className='md:px-12 px-6 lg:pl-64 h-24 pt-12 md:pt-16 font-OpenSans'>
+                    <div className='flex justify-between'>
+                        <p className='text-md md:text-2xl font-semibold'>My Recent Activity</p>
+
+                        {/* View my courses */}
+                        <div className='lg:mr-56 font-semibold text-gray-800 dark:text-white text-xs md:text-base'>
+                            <Link rel="noopener noreferrer"
+                                href="/profile"
+                                className='hover:text-gray-600 dark:hover:text-gray-200 flex gap-2'>
+                                <p className='mt-2'>View My courses</p>
+                                <AiOutlineArrowRight size={16} className='mt-3' />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     )
