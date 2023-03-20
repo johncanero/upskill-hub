@@ -211,17 +211,36 @@ const MobileDropdown = () => {
 
 
 
-                <div className="px-1 py-1 pb-2">
+                <div className="px-1 pb-2">
                   <Menu.Item>
                     {({ active }) => (
                       <button
                         className={`${active ? "bg-violet-500 text-white" : "text-gray-900"
-                          } group flex w-72 items-center rounded-md  py-1 text-sm font-Poppins`}
+                          } group flex w-72 items-center rounded-md py-1 text-sm font-Poppins`}
                       >
                         {renderThemeChanger()}
                       </button>
                     )}
                   </Menu.Item>
+
+                  {/* Profile */}
+                  <Menu.Item>
+                    {({ active }) => (
+                      <Link href="/profile">
+                        <button
+                          className={`${active
+                            ? "bg-violet-500 text-white"
+                            : "text-gray-900"
+                            } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                        >
+                          <CgProfile size={17} />
+                          <span className="ml-2 font-OpenSans font-medium">Profile</span>
+                        </button>
+                      </Link>
+                    )}
+                  </Menu.Item>
+
+
                 </div>
 
                 {/* Contact */}
