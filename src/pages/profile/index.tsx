@@ -46,7 +46,7 @@ const index = () => {
                                 href="/profile"
                                 className='hover:text-gray-600 dark:hover:text-gray-200'>
                                 <div className='flex gap-2'>
-                                    <p>How it Works</p>
+                                    <p>How it works</p>
                                     <BsChevronDown className='mt-1' size={16} />
                                 </div>
                             </Link>
@@ -65,7 +65,7 @@ const index = () => {
                             <Link rel="noopener noreferrer"
                                 href="/profile"
                                 className='hover:text-gray-600 dark:hover:text-gray-200 flex gap-2'>
-                                <p className='mt-1 md:mt-2'>View My courses</p>
+                                <p className='mt-1 md:mt-2'>View my courses</p>
                                 <AiOutlineArrowRight size={16} className='mt-1 md:mt-3' />
                             </Link>
                         </div>
