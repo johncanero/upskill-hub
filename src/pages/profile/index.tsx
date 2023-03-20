@@ -56,7 +56,7 @@ const index = () => {
 
 
                 {/* My Recent Activity and View my Courses*/}
-                <div className='md:px-12 px-6 lg:pl-64 h-24 pt-12 md:pt-16 font-OpenSans'>
+                <div className='md:px-12 px-6 lg:pl-64 h-20 pt-12 md:pt-14 font-OpenSans'>
                     <div className='flex justify-between'>
                         <p className='text-md md:text-2xl font-semibold'>My Recent Activity</p>
 
@@ -65,13 +65,18 @@ const index = () => {
                             <Link rel="noopener noreferrer"
                                 href="/profile"
                                 className='hover:text-gray-600 dark:hover:text-gray-200 flex gap-2'>
-                                <p className='mt-2'>View My courses</p>
-                                <AiOutlineArrowRight size={16} className='mt-3' />
+                                <p className='mt-1 md:mt-2'>View My courses</p>
+                                <AiOutlineArrowRight size={16} className='mt-1 md:mt-3' />
                             </Link>
                         </div>
                     </div>
                 </div>
 
+                {/* Let's begin learning */}
+                <div>
+                    <div className="md:px-12 px-6 lg:pl-64 h-44 mt-1 md:mt-4 lg:mt-5 text-black dark:text-white font-OpenSans dark:bg-gray-900 border-2 border-gray-800 md:mx-12 lg:mx-64 mx-6">
+                    </div>
+                </div>
             </div>
         </div>
     )
