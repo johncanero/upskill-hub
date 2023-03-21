@@ -19,6 +19,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Layout.tsx", "src/components/Button.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Layout.tsx", "src/components/Button.tsx"],
   "exclude": ["node_modules"]
 }
