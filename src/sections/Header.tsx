@@ -72,7 +72,7 @@ const Header = () => {
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/johncanero/">
+                href="/">
                 <Image
                   src="/images/upskillHubIcon.png"
                   width={35}
