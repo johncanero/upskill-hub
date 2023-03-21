@@ -56,11 +56,11 @@ const index = () => {
                     </div>
 
                     {/* Chat GPT */}
-                    <div>
+                    {/* <div>
                         <p className="mt-6 text-xs text-center md:text-sm dark:text-gray-400">
                             From ChatGPT: Optimizing Language Model for Dialogue
                         </p>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* Column 2 */}
@@ -79,7 +79,7 @@ const index = () => {
                             width={300}
                             height={300}
                             alt="Explore Portrait"
-                            className="hidden ml-20 mt-6 rounded-xl lg:block"
+                            className="hidden mt-6 ml-20 rounded-xl lg:block"
                         />
                     </motion.div>
                 </div>
