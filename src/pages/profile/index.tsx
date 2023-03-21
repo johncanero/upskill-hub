@@ -77,13 +77,13 @@ const index = () => {
                 {/* Let's begin learning */}
                 <div>
                     <div className="px-6 mx-6 mt-1 text-black border-2 border-gray-300 dark:border-gray-800 md:px-12 lg:ml-64 h-44 md:mt-4 lg:mt-5 dark:text-white font-OpenSans dark:bg-gray-900 md:mx-12 lg:mx-64">
-                        <div className='flex lg:pt-8'>
+                        <div className='flex md:pt-6 lg:pt-8'>
                             {/* Icon */}
-                            <div>
+                            <div className=' md:w-96 lg:w-24'>
                                 <Image
                                     src="/images/pages/rocketIcon.png"
-                                    width={96}
-                                    height={96}
+                                    width={300}
+                                    height={300}
                                     alt="Rocket Icon"
                                     className=""
                                 />
@@ -91,9 +91,9 @@ const index = () => {
 
                             {/* Let's begin learning! */}
                             {/* Paragraph */}
-                            <div className='max-w-2xl'>
+                            <div className='lg:max-w-2xl'>
                                 <p className='text-xl font-semibold ml-7'>Let's begin learning!</p>
-                                <p className='mt-2 mr-12 text-sm ml-7'>This section will show your course in progress, so you can easily pick up where you left off. You can start by browsing through the recommended collections, searching the entire course catalog, or selecting a category to find the course you're looking for.</p>
+                                <p className='mt-2 text-sm lg:mr-12 ml-7'>This section will show your course in progress, so you can easily pick up where you left off. You can start by browsing through the recommended collections, searching the entire course catalog, or selecting a category to find the course you're looking for.</p>
                             </div>
                         </div>
                         <p></p>

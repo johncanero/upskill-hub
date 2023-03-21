@@ -22,6 +22,8 @@ export default function Home() {
       </Head>
       <Hero />
       <Courses />
+
+      {/* Application Feature */}
     </>
   )
 }
