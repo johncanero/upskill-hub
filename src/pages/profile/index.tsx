@@ -9,7 +9,7 @@ import { AiOutlineArrowRight } from '@react-icons/all-files/ai/AiOutlineArrowRig
 
 const index = () => {
     return (
-        <div>
+        <div className='mb-28'>
             {/* <h1 className="mt-6 text-xl font-bold text-center md:text-2xl font-OpenSans">
                 Profile
             </h1> */}
