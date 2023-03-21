@@ -76,10 +76,10 @@ const index = () => {
 
                 {/* Let's begin learning */}
                 <div>
-                    <div className="px-6 mx-6 mt-1 text-black border-2 border-gray-300 dark:border-gray-800 md:px-12 lg:ml-64 h-96 md:h-44 md:mt-4 lg:mt-5 dark:text-white font-OpenSans dark:bg-gray-900 md:mx-12 lg:mx-64">
-                        <div className='pt-7 md:flex lg:pt-8'>
+                    <div className="px-6 mx-6 mt-1 text-black border-2 border-gray-300 dark:border-gray-800 md:px-12 lg:ml-64 max-h- md:h-56 lg:h-44 md:mt-4 lg:mt-5 dark:text-white font-OpenSans dark:bg-gray-900 md:mx-12 lg:mx-64">
+                        <div className='pt-7 pb-7 md:pt-8 lg:pt-7 md:flex'>
                             {/* Icon */}
-                            <div className='mx-auto w-28 md:mx-0 md:w-96 lg:w-24'>
+                            <div className='mx-auto w-28 md:mx-0 md:w-80 lg:w-24 md:pt-2'>
                                 <Image
                                     src="/images/pages/rocketIcon.png"
                                     width={300}
@@ -93,7 +93,8 @@ const index = () => {
                             {/* Paragraph */}
                             <div className='text-center md:text-left pt-7 md:pt-0 lg:max-w-2xl'>
                                 <p className='text-xl font-semibold md:ml-7'>Let's begin learning!</p>
-                                <p className='mt-2 text-sm lg:mr-12 md:ml-7'>This section will show your course in progress, so you can easily pick up where you left off. You can start by browsing through the recommended collections, searching the entire course catalog, or selecting a category to find the course you're looking for.</p>
+                                <p className='mt-2 text-sm lg:mr-12 md:ml-7'>This section will show your course in progress, so you can easily pick up where you left off.</p>
+                                <p className='mt-4 md:mt-2 text-sm lg:mr-12 md:ml-7'>You can start by browsing through the recommended collections, searching the entire course catalog, or selecting a category to find the course you're looking for.</p>
                             </div>
                         </div>
                         <p></p>
