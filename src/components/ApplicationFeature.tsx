@@ -1,6 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import Image from 'next/image'
+// Framer-Motion
+import { motion } from "framer-motion"
 
 const ApplicationFeature = () => {
     return (
@@ -12,7 +14,13 @@ const ApplicationFeature = () => {
                 </div>
 
                 {/* Application Feature */}
-                <div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{
+                        duration: 0.8
+                    }}
+                >
                     <Image
                         src="/images/upSkillHubSlider.png"
                         width={1000}
@@ -20,7 +28,7 @@ const ApplicationFeature = () => {
                         alt="Application Feature: Responsive (Mobile, Tablet, and Desktop)"
                         className="my-8 max-w-xs md:max-w-2xl mx-auto lg:max-w-5xl"
                     />
-                </div>
+                </motion.div>
 
                 <p className="mx-8 italic text-center text-sm md:text-base lg:text-lg md:mx-28 lg:mx-48">Our expert instructors guide you every step of the way, with flexible courses designed to fit your schedule and budget.</p>
                 <p className="mx-8 mt-6 italic text-center text-sm md:text-base lg:text-lg md:mx-28 lg:mx-48">Whether you're looking to boost your career, pivot to a new industry, or simply enhance your skills, Upskill Hub has got you covered. <span className='font-semibold'>Join us today and start your journey towards success!</span></p>
