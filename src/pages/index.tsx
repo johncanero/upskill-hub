@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Hero from '@/sections/Hero'
-// Courses Section
+// Components
 import Courses from '@/components/Courses'
+import ApplicationFeature from '@/components/ApplicationFeature'
 
 export default function Home() {
   return (
@@ -22,8 +23,8 @@ export default function Home() {
       </Head>
       <Hero />
       <Courses />
-
       {/* Application Feature */}
+      <ApplicationFeature />
     </>
   )
 }
