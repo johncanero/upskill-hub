@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 // Framer-Motion
 import { motion } from "framer-motion"
@@ -22,14 +23,20 @@ const index = () => {
                     }}>
                     <div className="w-full overflow-hidden text-white shadow-xl rounded-xl h-72 bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">
                         <div>
-                            {/* Image */}
-                            <Image
-                                src="/images/courses/animation-min.jpg"
-                                width={300}
-                                height={300}
-                                alt="Animation"
-                                className="lg:block"
-                            />
+                            <Link
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.youtube.com/@Jen_Animation"
+                            >
+                                {/* Image */}
+                                <Image
+                                    src="/images/courses/animation-min.jpg"
+                                    width={300}
+                                    height={300}
+                                    alt="Animation"
+                                    className="lg:block"
+                                />
+                            </Link>
                             <div className='flex justify-center mt-2'>
                                 <h2 className="mt-2 mb-2 font-bold text-gray-900 text-md font-OpenSans">Animation</h2>
                             </div>
