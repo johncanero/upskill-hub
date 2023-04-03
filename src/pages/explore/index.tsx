@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
+import Head from 'next/head'
 import Image from 'next/image'
 // Framer-Motion
 import { motion } from "framer-motion"
@@ -7,7 +8,17 @@ import { motion } from "framer-motion"
 const index = () => {
     return (
         <div className='mx-8 mb-24 md:mx-28 lg:mx-64'>
-
+            <Head>
+                <title>Explore / Upskill Hub</title>
+                <meta
+                    name="description"
+                    content="Explore: Upskill Hub"
+                />
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta property="og:title" content="Explore: Upskill Hub" />
+                <meta property="og:description" content="Explore: Upskill Hub" />
+                {/* Sitemap */}
+            </Head>
             <h1 className="mt-6 text-2xl font-bold text-center font-OpenSans">
                 Explore
             </h1>

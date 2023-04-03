@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 // Framer-Motion
@@ -7,6 +8,17 @@ import { motion } from "framer-motion"
 const index = () => {
     return (
         <div className='mb-24'>
+            <Head>
+                <title>Online Courses / Upskill Hub</title>
+                <meta
+                    name="description"
+                    content="Online Courses: Upskill Hub"
+                />
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta property="og:title" content="Online Courses: Upskill Hub" />
+                <meta property="og:description" content="Online Courses: Upskill Hub" />
+                {/* Sitemap */}
+            </Head>
             <h1 className="mt-6 text-2xl font-bold text-center font-OpenSans">
                 Online Courses
             </h1>

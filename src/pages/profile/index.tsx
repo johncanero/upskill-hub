@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
+import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 // Icon
@@ -10,6 +11,17 @@ import { AiOutlineArrowRight } from '@react-icons/all-files/ai/AiOutlineArrowRig
 const index = () => {
     return (
         <div className='mb-28'>
+                  <Head>
+                <title>Profile / Upskill Hub</title>
+                <meta
+                    name="description"
+                    content="Profile: Upskill Hub"
+                />
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta property="og:title" content="Profile: Upskill Hub" />
+                <meta property="og:description" content="Profile: Upskill Hub" />
+                {/* Sitemap */}
+            </Head>
             {/* <h1 className="mt-6 text-xl font-bold text-center md:text-2xl font-OpenSans">
                 Profile
             </h1> */}
@@ -94,7 +106,7 @@ const index = () => {
                             <div className='text-center md:text-left pt-7 md:pt-0 lg:max-w-2xl'>
                                 <p className='text-xl font-semibold md:ml-7'>Let's begin learning!</p>
                                 <p className='mt-2 text-sm lg:mr-12 md:ml-7'>This section will show your course in progress, so you can easily pick up where you left off.</p>
-                                <p className='mt-4 md:mt-2 text-sm lg:mr-12 md:ml-7'>You can start by browsing through the recommended collections, searching the entire course catalog, or selecting a category to find the course you're looking for.</p>
+                                <p className='mt-4 text-sm md:mt-2 lg:mr-12 md:ml-7'>You can start by browsing through the recommended collections, searching the entire course catalog, or selecting a category to find the course you're looking for.</p>
                             </div>
                         </div>
                         <p></p>
