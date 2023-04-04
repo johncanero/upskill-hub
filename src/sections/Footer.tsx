@@ -9,7 +9,7 @@ import { motion } from "framer-motion"
 
 const Footer = () => {
   return (
-    <footer className="hidden md:block px-10 py-6 bg-gray-100 dark:bg-gray-900 md:px-12 lg:px-64">
+    <footer className="hidden px-10 py-6 bg-gray-100 md:block dark:bg-gray-900 md:px-12 lg:px-64">
 
       {/* Upskill and Get Started */}
       <div className="flex justify-center md:justify-between">
@@ -27,7 +27,7 @@ const Footer = () => {
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.linkedin.com/company/upskill-hub/"
+            href="https://johncanero.com/"
           >
             <button className="w-40 h-12 font-bold text-white rounded-full bg-gradient-to-l from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 font-OpenSans">
               Get Started
