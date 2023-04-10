@@ -4,7 +4,7 @@ import CoursesCard from './CoursesCard'
 import { BiRun } from "@react-icons/all-files/bi/BiRun"
 import { IoMdCreate } from "@react-icons/all-files/io/IoMdCreate"
 import { HiCamera } from "@react-icons/all-files/hi/HiCamera"
-import { GrBitcoin } from "@react-icons/all-files/gr/GrBitcoin"
+import { SiProbot } from "@react-icons/all-files/si/SiProbot"
 import { FaBusinessTime } from "@react-icons/all-files/fa/FaBusinessTime"
 // Framer-Motion
 import { motion } from "framer-motion"
@@ -55,9 +55,9 @@ const Courses = () => {
         />
 
         <CoursesCard
-          icon={<GrBitcoin size={54} className='p-3 text-white bg-blue-500 rounded-full ' />}
-          title="Crypto"
-          paragraph="All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course."
+          icon={<SiProbot size={54} className='p-3 text-white bg-blue-500 rounded-full ' />}
+          title="Artificial Intelligence"
+          paragraph="Stay updated on the latest AI developments and its societal impact through our course. Explore AI applications and get started today."
           getstarted="Get Started"
           path="/"
         />
