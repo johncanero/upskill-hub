@@ -38,6 +38,9 @@ online courses and resources from top industry experts. ⚪🔵
 
 🪟: [Desktop - Tablet - Mobile]
 
+Responsive Feature Application
+![Responsive Feature - Upskill Hub Website](./public/images/responsive/upSkillHubFeature.png)
+
 Desktop Responsive Light
 ![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktop.jpg)
 ![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktop2.jpg)
