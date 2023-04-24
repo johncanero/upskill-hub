@@ -54,13 +54,13 @@ const Hero = () => {
 
 
             {/* Desktop and Tablet */}
-            <div className='relative hidden md:block md:-top-44 lg:-top-80'>
+            <div className='relative hidden md:block md:-top-20 lg:-top-80'>
               <Image
                 src="/images/e-learningDesktop6.png"
                 width={800}
                 height={800}
                 alt="E-Learning Desktop Feature Image"
-                className="absolute right-0 lg:max-w-4xl md:max-w-xl md:-right-40 lg:-right-12 md:-top-96 lg:-top-96"
+                className="absolute right-0 lg:max-w-4xl md:max-w-md md:-right-16 lg:-right-12 md:-top-96 lg:-top-96"
               />
             </div>
           </motion.div>
