@@ -31,23 +31,21 @@ online courses and resources from top industry experts. ⚪🔵
 
 🖥️ [https://upskillhub-by-johncanero.vercel.app/]
 
-✍️ Project by John Cañero
-
 ## Responsive Design
 
 🪟: [Desktop - Tablet - Mobile]
 
 Responsive Feature Application
-![Responsive Feature - Upskill Hub Website](./public/images/responsive/upSkillHubFeature.png)
+![Responsive Feature - Upskill Hub Website](./public/images/responsive/upSkillHubApplicationLight.png)
 ![Responsive Feature - Upskill Hub Website](./public/images/responsive/upskillHubApplicationDark.png)
 
 Desktop Responsive Light
-![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktop.jpg)
-![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktop2.jpg)
+![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktopLight1.jpg)
+![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktopLight2.jpg)
 
 Desktop Responsive Dark 
-![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktop3.jpg)
-![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktop4.1.jpg)
+![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktopDark3.jpg)
+![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktopDark4.jpg)
 
 Tablet Responsive | Light and Dark
 ![Tablet View - Upskill Hub Website](./public/images/responsive/upskillHubTablet.jpg)
