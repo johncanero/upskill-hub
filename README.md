@@ -46,6 +46,7 @@ Desktop Responsive Light
 Desktop Responsive Dark 
 ![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktopDark3.jpg)
 ![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktopDark4.jpg)
+![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubLinkPages.png)
 
 Tablet Responsive | Light and Dark
 ![Tablet View - Upskill Hub Website](./public/images/responsive/upskillHubTablet.jpg)
