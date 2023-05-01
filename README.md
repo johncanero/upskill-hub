@@ -6,7 +6,6 @@
   "MD033": false,
   "MD041": false
 } -->
-
 <div align="center">
   <a href="https://upskillhub-by-johncanero.vercel.app/" target="_blank">
     <img alt="upskill-hub_logo" height="100" src="./public/images/upskillHubIcon.png"/>
@@ -40,6 +39,7 @@ online courses and resources from top industry experts. ⚪🔵
 
 Responsive Feature Application
 ![Responsive Feature - Upskill Hub Website](./public/images/responsive/upSkillHubFeature.png)
+![Responsive Feature - Upskill Hub Website](./public/images/responsive/upskillHubApplicationDark.png)
 
 Desktop Responsive Light
 ![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktop.jpg)
