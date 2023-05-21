@@ -228,15 +228,13 @@ const MobileDropdown = () => {
 
                         {/* Login */}
                         <button
+                          onClick={(e) => {
+                            e.preventDefault();
+                            signIn('google');
+                          }}
                           className='group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins text-gray-900'
                         >
-                          <Link
-                            rel="noopener noreferrer"
-                            href="/profile"
-                            className=""
-                          >
-                            <Login />
-                          </Link>
+                          <Login />
                           <span className="ml-2 font-OpenSans font-medium">Profile</span>
                         </button>
 
