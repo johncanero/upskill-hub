@@ -149,6 +149,7 @@ const Header = () => {
                 </button>
               </Link>
             </div>
+            
             <Login />
             {renderThemeChanger()}
           </div>
