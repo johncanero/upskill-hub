@@ -19,7 +19,7 @@ const Layout = ({ children }: LayoutProps): JSX.Element => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Upskill Hub" />
         <meta property="og:description" content="Upskill Hub and Online Courses" />
-        <link rel="icon" href="/upskillHubIcon.ico" />
+        <link rel="icon" type="image/x-icon"  href="/upskillHubIcon.ico" />
 
         {/* URL */}
         {/* <meta property="og:url" content="https://johncanero.com/" /> */}

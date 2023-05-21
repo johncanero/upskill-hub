@@ -234,7 +234,6 @@ const MobileDropdown = () => {
                           className='flex items-center px-2 py-2 text-sm text-gray-900 rounded-md group w-72 font-Poppins'
                         >
                           <LoginMobile />
-                          <span className="ml-2 font-medium font-OpenSans">Profile</span>
                         </button>
                       </Link>
                     )}

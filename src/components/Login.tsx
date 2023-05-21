@@ -15,7 +15,7 @@ const Login: React.FC<Props> = ({ }) => {
                     onClick={(() => signOut())}
                     src={session.user?.image!}
                     alt='user-avatar'
-                    className='w-6 mx-auto rounded-full cursor-pointer md:w-8 lg:w-9 lg:mt-2 lg:mb-2 lg:mr-3 2xl:h-12 2xl:w-12 hover:opacity-50'
+                    className='mx-auto rounded-full cursor-pointer lg:w-9 lg:mt-2 lg:mb-2 lg:mr-3 2xl:h-12 2xl:w-12 hover:opacity-50'
                 />
             ) : (
                 // Render the login button
