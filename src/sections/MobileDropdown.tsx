@@ -13,6 +13,13 @@ import { CgProfile } from "@react-icons/all-files/cg/CgProfile"
 import { BiSearchAlt } from "@react-icons/all-files/bi/BiSearchAlt"
 import { GoLightBulb } from "@react-icons/all-files/go/GoLightBulb"
 import { GiNetworkBars } from "@react-icons/all-files/gi/GiNetworkBars"
+import { ArrowLeftOnRectangleIcon } from '@heroicons/react/24/outline';
+
+// NextAuth
+import { useSession, signIn, signOut } from "next-auth/react"
+
+// Component
+import Login from "@/components/Login";
 
 const MobileDropdown = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -112,15 +119,6 @@ const MobileDropdown = () => {
 
             {/* Toggle Button */}
             <div className="flex">
-              <Link
-                rel="noopener noreferrer"
-                href="/profile"
-                className=""
-              >
-                <CgProfile size={26} className="mt-1 mr-5" />
-              </Link>
-
-
               <Menu.Button className="inline-flex justify-center w-full py-1 text-sm font-medium rounded-md text-neutral-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
                 <GiHamburgerMenu
                   className="w-6 h-6 dark:text-white"
@@ -146,7 +144,7 @@ const MobileDropdown = () => {
                       <Link href="/">
                         <button
                           className={`${active
-                            ? "bg-violet-500 text-white"
+                            ? "bg-blue-500 text-white"
                             : "text-gray-900"
                             } group flex w-full items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
@@ -162,7 +160,7 @@ const MobileDropdown = () => {
                       <Link href="/explore">
                         <button
                           className={`${active
-                            ? "bg-violet-500 text-white"
+                            ? "bg-blue-500 text-white"
                             : "text-gray-900"
                             } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
@@ -181,7 +179,7 @@ const MobileDropdown = () => {
                       <Link href="/online-courses">
                         <button
                           className={`${active
-                            ? "bg-violet-500 text-white"
+                            ? "bg-blue-500 text-white"
                             : "text-gray-900"
                             } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
@@ -197,7 +195,7 @@ const MobileDropdown = () => {
                       <Link href="/find-your-new-career">
                         <button
                           className={`${active
-                            ? "bg-violet-500 text-white"
+                            ? "bg-blue-500 text-white"
                             : "text-gray-900"
                             } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
@@ -215,7 +213,7 @@ const MobileDropdown = () => {
                   <Menu.Item>
                     {({ active }) => (
                       <button
-                        className={`${active ? "bg-violet-500 text-white" : "text-gray-900"
+                        className={`${active ? "bg-blue-500 text-white" : "text-gray-900"
                           } group flex w-72 items-center rounded-md py-1 text-sm font-Poppins`}
                       >
                         {renderThemeChanger()}
@@ -227,14 +225,31 @@ const MobileDropdown = () => {
                   <Menu.Item>
                     {({ active }) => (
                       <Link href="/profile">
+
+                        {/* Login */}
+                        <button
+                          className='group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins text-gray-900'
+                        >
+                          <Link
+                            rel="noopener noreferrer"
+                            href="/profile"
+                            className=""
+                          >
+                            <Login />
+                          </Link>
+                          <span className="ml-2 font-OpenSans font-medium">Profile</span>
+                        </button>
+
+                        {/* Logout */}
                         <button
                           className={`${active
-                            ? "bg-violet-500 text-white"
+                            ? "bg-blue-500 text-white"
                             : "text-gray-900"
                             } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                          onClick={(() => signOut())}
                         >
-                          <CgProfile size={17} />
-                          <span className="ml-2 font-OpenSans font-medium">Profile</span>
+                          <ArrowLeftOnRectangleIcon className="w-6" />
+                          <span className="ml-2 font-OpenSans font-medium">Logout</span>
                         </button>
                       </Link>
                     )}
@@ -247,6 +262,7 @@ const MobileDropdown = () => {
                 <div className="flex justify-center py-1 pb-4 mx-auto">
                   <Menu.Item>
                     {({ active }) => (
+                      // Get Started
                       <Link
                         target="_blank"
                         rel="noopener noreferrer"

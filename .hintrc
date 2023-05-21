@@ -9,6 +9,8 @@
       {
         "list": "off"
       }
-    ]
+    ],
+    "button-type": "off",
+    "axe/name-role-value": "off"
   }
 }

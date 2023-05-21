@@ -7,6 +7,7 @@ import { useState, useEffect } from "react";
 import Button from "@/components/Button";
 // Framer-Motion
 import { motion } from "framer-motion"
+import Login from "@/components/Login";
 
 const Header = () => {
   // Dark Theme
@@ -148,6 +149,7 @@ const Header = () => {
                 </button>
               </Link>
             </div>
+            <Login />
             {renderThemeChanger()}
           </div>
         </header>
