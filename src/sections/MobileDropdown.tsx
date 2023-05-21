@@ -19,7 +19,7 @@ import { ArrowLeftOnRectangleIcon } from '@heroicons/react/24/outline';
 import { useSession, signIn, signOut } from "next-auth/react"
 
 // Component
-import Login from "@/components/Login";
+import LoginMobile from "@/components/LoginMobile";
 
 const MobileDropdown = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -69,7 +69,7 @@ const MobileDropdown = () => {
               clipRule="evenodd"
             />
           </svg>
-          <span className="font-OpenSans font-medium">Light/Dark Mode</span>
+          <span className="font-medium font-OpenSans">Light/Dark Mode</span>
         </Button>
       );
     }
@@ -136,7 +136,7 @@ const MobileDropdown = () => {
               leaveFrom="transform opacity-100 scale-100"
               leaveTo="transform opacity-0 scale-95"
             >
-              <Menu.Items className=" absolute right-0 w-56 mt-2 origin-top-right bg-white divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ">
+              <Menu.Items className="absolute right-0 w-56 mt-2 origin-top-right bg-white divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                 {/* Home */}
                 <div className="px-1 py-1 ">
                   <Menu.Item>
@@ -149,7 +149,7 @@ const MobileDropdown = () => {
                             } group flex w-full items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <FaHome size={17} />
-                          <span className="ml-2 font-OpenSans font-medium">Home</span>
+                          <span className="ml-2 font-medium font-OpenSans">Home</span>
                         </button>
                       </Link>
                     )}
@@ -165,7 +165,7 @@ const MobileDropdown = () => {
                             } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <BiSearchAlt size={17} />
-                          <span className="ml-2 font-OpenSans font-medium">Explore</span>
+                          <span className="ml-2 font-medium font-OpenSans">Explore</span>
                         </button>
                       </Link>
                     )}
@@ -184,7 +184,7 @@ const MobileDropdown = () => {
                             } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <GoLightBulb size={17} />
-                          <span className="ml-2 font-OpenSans font-medium">Online Courses</span>
+                          <span className="ml-2 font-medium font-OpenSans">Online Courses</span>
                         </button>
                       </Link>
                     )}
@@ -200,7 +200,7 @@ const MobileDropdown = () => {
                             } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <GiNetworkBars size={17} />
-                          <span className="ml-2 font-OpenSans font-medium">Find Your New Career</span>
+                          <span className="ml-2 font-medium font-OpenSans">Find Your New Career</span>
                         </button>
                       </Link>
                     )}
@@ -225,35 +225,36 @@ const MobileDropdown = () => {
                   <Menu.Item>
                     {({ active }) => (
                       <Link href="/profile">
-
                         {/* Login */}
                         <button
                           onClick={(e) => {
                             e.preventDefault();
                             signIn('google');
                           }}
-                          className='group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins text-gray-900'
+                          className='flex items-center px-2 py-2 text-sm text-gray-900 rounded-md group w-72 font-Poppins'
                         >
-                          <Login />
-                          <span className="ml-2 font-OpenSans font-medium">Profile</span>
-                        </button>
-
-                        {/* Logout */}
-                        <button
-                          className={`${active
-                            ? "bg-blue-500 text-white"
-                            : "text-gray-900"
-                            } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
-                          onClick={(() => signOut())}
-                        >
-                          <ArrowLeftOnRectangleIcon className="w-6" />
-                          <span className="ml-2 font-OpenSans font-medium">Logout</span>
+                          <LoginMobile />
+                          <span className="ml-2 font-medium font-OpenSans">Profile</span>
                         </button>
                       </Link>
                     )}
                   </Menu.Item>
 
-
+                  <Menu.Item>
+                    {/* Logout */}
+                    {({ active }) => (
+                      <button
+                        className={`${active
+                          ? "bg-blue-500 text-white"
+                          : "text-gray-900"
+                          } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                        onClick={(() => signOut())}
+                      >
+                        <ArrowLeftOnRectangleIcon className="w-6" />
+                        <span className="ml-2 font-medium font-OpenSans">Logout</span>
+                      </button>
+                    )}
+                  </Menu.Item>
                 </div>
 
                 {/* Contact */}
