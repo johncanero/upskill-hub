@@ -162,7 +162,7 @@ const MobileDropdown = () => {
                           className={`${active
                             ? "bg-blue-500 text-white"
                             : "text-gray-900"
-                            } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                            } group flex items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <BiSearchAlt size={17} />
                           <span className="ml-2 font-medium font-OpenSans">Explore</span>
@@ -181,7 +181,7 @@ const MobileDropdown = () => {
                           className={`${active
                             ? "bg-blue-500 text-white"
                             : "text-gray-900"
-                            } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                            } group flex items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <GoLightBulb size={17} />
                           <span className="ml-2 font-medium font-OpenSans">Online Courses</span>
@@ -197,7 +197,7 @@ const MobileDropdown = () => {
                           className={`${active
                             ? "bg-blue-500 text-white"
                             : "text-gray-900"
-                            } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                            } group flex items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         >
                           <GiNetworkBars size={17} />
                           <span className="ml-2 font-medium font-OpenSans">Find Your New Career</span>
@@ -214,7 +214,7 @@ const MobileDropdown = () => {
                     {({ active }) => (
                       <button
                         className={`${active ? "bg-blue-500 text-white" : "text-gray-900"
-                          } group flex w-72 items-center rounded-md py-1 text-sm font-Poppins`}
+                          } group flex items-center rounded-md py-1 text-sm font-Poppins`}
                       >
                         {renderThemeChanger()}
                       </button>
@@ -229,7 +229,7 @@ const MobileDropdown = () => {
                           e.preventDefault();
                           signIn('google');
                         }}
-                        className='flex items-center px-2 py-2 text-sm text-gray-900 rounded-md group w-72 font-Poppins'
+                        className='flex items-center px-2 py-2 text-sm text-gray-900 rounded-md group font-Poppins'
                       >
                         <Link href="/profile">
                           {/* Login */}
@@ -246,7 +246,7 @@ const MobileDropdown = () => {
                         className={`${active
                           ? "bg-blue-500 text-white"
                           : "text-gray-900"
-                          } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                          } group flex items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                         onClick={(() => signOut())}
                       >
                         <ArrowLeftOnRectangleIcon className="w-6" />
