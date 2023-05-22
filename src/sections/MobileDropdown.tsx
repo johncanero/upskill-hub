@@ -224,18 +224,18 @@ const MobileDropdown = () => {
                   {/* Profile */}
                   <Menu.Item>
                     {({ active }) => (
-                      <Link href="/profile">
-                        {/* Login */}
-                        <button
-                          onClick={(e) => {
-                            e.preventDefault();
-                            signIn('google');
-                          }}
-                          className='flex items-center px-2 py-2 text-sm text-gray-900 rounded-md group w-72 font-Poppins'
-                        >
+                      <button
+                        onClick={(e) => {
+                          e.preventDefault();
+                          signIn('google');
+                        }}
+                        className='flex items-center px-2 py-2 text-sm text-gray-900 rounded-md group w-72 font-Poppins'
+                      >
+                        <Link href="/profile">
+                          {/* Login */}
                           <LoginMobile />
-                        </button>
-                      </Link>
+                        </Link>
+                      </button>
                     )}
                   </Menu.Item>
 
