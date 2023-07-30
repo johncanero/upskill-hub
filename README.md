@@ -34,21 +34,21 @@ online courses and resources from top industry experts. ⚪🔵
 ## Responsive Design
 
 🪟: [Desktop - Tablet - Mobile]
+![Upskill Hub Portfolio](./public/images/responsive/upskillHubPortfolio.jpg)
+![Upskill Hub - Branding Portfolio](./public/images/responsive/upskillhub.jpg)
+![Upskill Hub - Description Portfolio](./public/images/responsive/upskillHubInfo.jpg)
 
-Responsive Feature Application
-![Responsive Feature - Upskill Hub Website](./public/images/responsive/upSkillHubApplicationLight.png)
-![Responsive Feature - Upskill Hub Website](./public/images/responsive/upskillHubApplicationDark.png)
+![Upskill Hub - Mockup Portfolio](./public/images/responsive/upskillHubMockUpDarkMode.jpg)
+![Upskill Hub - Mockup Portfolio](./public/images/responsive/upskillHubMockUpLightMode.jpg)
 
-Desktop Responsive Light
-![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktopLight1.jpg)
-![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktopLight2.jpg)
+![Upskill Hub - Mobile Portfolio](./public/images/responsive/upskillHubMobileDarkMode.jpg)
+![Upskill Hub - Mobile Portfolio](./public/images/responsive/upskillHubMobileLightMode.jpg)
+![Upskill Hub - Mobile Portfolio](./public/images/responsive/upskillHubMobileLightAndDarkMode-1.jpg)
 
-Desktop Responsive Dark 
-![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktopDark3.jpg)
-![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubDesktopDark4.jpg)
-![Desktop View - Upskill Hub Website](./public/images/responsive/upskillHubLinkPages.png)
+![Upskill Hub - Tablet Portfolio](./public/images/responsive/tabletUpskillHubDarkMode.jpg)
+![Upskill Hub - Tablet Portfolio](./public/images/responsive/tabletUpskillHubLightMode.jpg)
+![Upskill Hub - Tablet Portfolio](./public/images/responsive/tabletUpskillHub.jpg)
 
-Tablet Responsive | Light and Dark
-![Tablet View - Upskill Hub Website](./public/images/responsive/upskillHubTablet.jpg)
-Mobile Responsive | Light and Dark
-![Mobile View - Upskill Hub Website](./public/images/responsive/upskillHubMobile.jpg)
+![Upskill Hub - Desktop Portfolio](./public/images/responsive/desktopDarkUpskillHub.jpg)
+![Upskill Hub - Desktop Portfolio](./public/images/responsive/desktopLightUpskillHub.jpg)
+![Upskill Hub - Desktop Portfolio](./public/images/responsive/desktopLaptopUpskillHub.jpg)
